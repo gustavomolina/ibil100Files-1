@@ -28,7 +28,7 @@ Conjunto de bits que forma uma unidade basica de informação
 |101 | 4 5 6 7|
 |110 | 8 9 0 A|
 |111 | A B C D|
----------------
+
 
 - Capacidade de endereçar 3 bits de endereços com palavras de 4 bits (dados)
 
