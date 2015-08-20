@@ -33,6 +33,7 @@ Conjunto de bits que forma uma unidade basica de informação
 - Capacidade de endereçar 3 bits de endereços com palavras de 4 bits (dados)
 
   Byte = 8 bits
+  
   Nible = 4 bits
   
 
