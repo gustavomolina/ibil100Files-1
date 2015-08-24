@@ -117,6 +117,55 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 > **OBS**: Em nenhum momento encontraremos 2 fontes de corrente em série, a não ser que ambas possuem o mesmo valor de corrente e o mesmo sentido de polariadade. Caso contrario teriamos uma situação fisica impossivel, pois se a fonte de corrente mantem a corrente constante e a corrente é a mesma para todos os elementos de uma associação em serie, não podemos admitir situação divergente. Por outro lado, são admissiveis fontes de tensão em paralelo, situação na qual a tensão equivalente é a da maior das fontes e a corrente equivalente é a soma das correntes individuais. As polaridades dessas fontes de tensão não devem entretanto, ser contrapostas.
 
+> **OBS**: Toda a teoria que envolve os equivalentes Thevenin e Norton pode tambem ser utilizada quando as fontes de alimentação existentes sob o circuito sobre analise forem alternadas. Nesse caso, costumamos utilizar como simbolos representantes das fontes de tensão correntes alternadas respectivamente:
+
+> img 7
+
+> Alem de considerarmos os elementos `R`, `L` e `C` com as impedancias complexas já estudadas. Neste ambito as fontes são tambem tratadas em uma abordagem vetorial, constumeiramente conhecida como fasores e tensão em corrente 
+
+-----
+
+## Diodos semicondutores e aplicações
+
+Conforme ja vimos anteriormente, os diodos constituem componentes que permitem a passagem da corrente eletrica apenas em um sentido, impedindo o fluxo de eletrons no sentido oposto desde que seja respeitado o limite maximo de tensão aplicada ao componente, pois, uma vez ultrapaçado o limiar, o diodo pode entrar em curto-circuito, permitindo a passagem da corrente em ambos os sentidos ou abrir-se, tornando-se um isolante. Fabricado com base nos materiais semicondutores silicio ou germanio, possui como simbolo eletrico:
+
+> img 8
+
+Sendo `A` e `K`, respectivamente, os terminais anodo e catodo, ou seja, o que deve ficar com potencial mais positivo e mais negativo respectivamente, de modo a permitir a passagem da corrente eletrica, situação na qual dizemos que o componente está diretamente polarizado. Ligado ao contrario, dizemos que esta reversamente polarizado.
+
+Não esquecemos que o diodo, para funcionarem, como comentado, possuem uma junção de dois micro cristais de silicio ou germanio, sendo que um deles é dopado com material do tipo `N` isto é, que possui cinco eletrons livres na banda de valencia e o outro é dopado com um material do tipo `P`, isto é, que possui tres eletrons livres na banda de valencia. As dopagens constituem a mistura de impurezas que penetram na estrutura atomica dos cristais de silicio ou germanio, alterando as suas propriedades fisico quimicas.
+
+Um fato relevante que envolve o uso de diodos é que, estando diretamente polarizado, isto é, permitindo a passagem da corrente eletrica, o diodo força uma queda de tensão que é percebida mesmo sem fluxo de corrente, queda esta que está em torno de 0.6 a 0.7 `v` nos diodos de silicio e 0.1 a 0.2 `v` nos diodos de germanio. Este comportamento se distingue daquele ocorrido com materiais condutores, tais como os que compoe os resistores. Nestes, a falta de fluxo de eletrons, isto é, corrente eletrica nula, implica em manutenção da tensão da fonte 
+
+> img 9 
+
+Percebe-se frequentemente a aplicação dos diodos em circuitos eletronicos tais como os de computadores, particularmente, nas fontes de alimentação. Presentes nos desktops e nos carregadores dos laptops os diodos possuem papel fundamental na conversão da tensão alternada da rede eletrica em tensão continua e de polaridade fixa necessaria para alimentar os componentes eletronicos dos circuitos computacionais.
+
+Sabemos que a geração e transmição de energia eletrica entrega para os usuarios uma tensão alternada. Isto possibilita o uso de transformadores para reduzir 110v ou 220v para tensões aceitaveis pelos circuitos eletronicos computacionais, pois os transformadores somente funcionam com tensão alternada devido a variação do fluxo eletro magnetico que ela proporciona e, por outro lado, divisores de tensão resistivos não são convenientes para efetuar este tipo de redução, tendo em vista o aquecimento demasiado  ou a indisponibilidade de corrente eletrica. 
+
+De qualquer forma, as tensões reduzidas com o uso de transformadores continuam sendo alternadas e os circuitos eletronicos computacionais somente aceitam tensões continuas. A conversão das tensões alternadas para continuas constituem um processo conhecido como **retificação** e que pode ser realizado utilizando-se diodos.
+
+> img 10
+
+A conversão da tensão alternada em tensão continua, realizada conforme o circuito que segue, com um unico diodo, é conhecida como retificação de meia-onda.
+
+> img 11
+
+Uma variação da retificação em meia onda é a retificação em onda completa que se faz com base em dois diodos, e é possivel quando o secundario do transformador possui uma derivação central, que é utilizada como terra, ou referencia. O efeito entretanto é o mesmo do circuito anterior. O esquema eletrico segue:
+
+> img 12
+
+A terceira tecnica de retificação, que é a mais propicea e mais utilizada industrialmente, utiliza 4 diodos e é conhecida como retificação em ponte, estabelencendo-se conforme o circuito abaixo.
+
+> img 13
+
+-----------
+
+#### MINIPROVA 2
+
+ -  Elabore, ao seu gosto, um circuito eletrico com 2 malhas e 2 fontes de alimentação de tensão continua, sendo uma em cada malha, com um unico resistor na intersecção das malhas. Enconte a corrente nesse resistor utilizando os equivalente de thevenin e norton e, em seguida, recorde os seus estudos anteriores e confira o resultado utilizando os leis de kirchoff por meio da resolução de um sistema 2x2.
+ 
+--------------
 
 
 
