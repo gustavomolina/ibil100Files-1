@@ -65,3 +65,65 @@ Além das caracterizações das impedância realizadas acima, os conceitos fisic
 ![index](https://cloud.githubusercontent.com/assets/3441126/9205022/38e593dc-4036-11e5-8caf-1c11c2553365.jpeg)
 ![index2](https://cloud.githubusercontent.com/assets/3441126/9205024/39f34422-4036-11e5-9320-4a666d20e13f.jpeg)
 
+
+------------
+> Aula: 24 de agosto
+
+----------
+
+
+## Equivalentes de Thevenin e de Norton
+
+Na prática, para nós, os equivalentes de thevenin e Norton constituem procedimentos que visam facilitar resoluções que envolvam nós e malhas tais como nos tradicionais equacionamentos Kirchoff, já esplorados em outras diciplinas.
+
+Desse modo, definimos:
+
+ - **Equivalente de Thevenin**: Associação de uma fonte de tensão com um resistor em série, isto é:
+ 
+> img 1
+
+ - **Equivalente de Norton**: Associação, em paralelo, de uma fonte de corrente com um resistor, isto é:
+
+> img 2
+
+
+A teoria envolvendo os equivalente de thevenin e Norton garante que para todo thevenin existe um Norton eletricamente equivalente e vise versa. Nas conversões os resistores mantem os seus valores e as transições de tensão para a corrente e vise versa são reguladas pela lei de ohm.
+
+Muito mais popular na prática é o uso de **fontes de tensão**, isto é, a fonte que fornece uma vontagem fixa independentemente da carga conectada a ela. Alternativamente, dizemos tratar da fonte na qual a resistencia da carga, isto é, o aparelho a ser alimentado é muito **maior** que a resistencia interna da fonte. **Fonte de corrente**, por outro lado, constitui um modelo mais comum na teoria do que na pratica, tratando-se do elemento que se auto-regula para fornecer uma corrente constante independentemente da carga conectada a ela, alternativamente, dizemos tratar-se da fonte na qual a resistencia da carga é muito **menor** do que a resistencia interna.
+
+Diante do exposto, passamos a analisar alguns exemplos.
+
+- **Exemplo**: Determine a corrente no resistor de 50 ohms no circuito abaixo.
+
+> img 3
+
+- **solução**:  Exceto ao elemento ao qual indagamos alguma grandeza, no caso a corrente no resistor de 50 ohm, procederemos com conversões Thevenin-Norton, visando simplificar o circuito por meio de associações de resistores e/ou fontes. Procedemos como segue:
+
+> img 4
+
+-------------------
+
+- **Exemplo 2**: Determine a tensão e a corrente no resistor de 100 ohm do circuito abaixo.
+
+> img 5
+
+
+-----
+
+- **Exemplo 3**: Idem anterior, invertendo a polaridade da fonte de `30 v` e associando, em serie com a fonte de `5 v`, de modo contraposto, outra fonte de `5 V`
+
+> img 6 
+
+
+> **OBS**: Em nenhum momento encontraremos 2 fontes de corrente em série, a não ser que ambas possuem o mesmo valor de corrente e o mesmo sentido de polariadade. Caso contrario teriamos uma situação fisica impossivel, pois se a fonte de corrente mantem a corrente constante e a corrente é a mesma para todos os elementos de uma associação em serie, não podemos admitir situação divergente. Por outro lado, são admissiveis fontes de tensão em paralelo, situação na qual a tensão equivalente é a da maior das fontes e a corrente equivalente é a soma das correntes individuais. As polaridades dessas fontes de tensão não devem entretanto, ser contrapostas.
+
+
+
+
+
+
+
+
+
+
+
