@@ -36,6 +36,22 @@ Conjunto de bits que forma uma unidade basica de informação
   
   Nible = 4 bits
   
+  
+  
+  ------------------
+  
+  > aula 27/08
+  
+  --------------------
+  
+  ## The Art of Assembly Language
+  
+  Randall Hyde
+  
+  http://plantation-productions.com/Webster/www.artofasm.com/
+  
+  ![img1](https://raw.githubusercontent.com/ibil100team/ibil100Files/master/LabLingMontagem/Norian/img1.png)
+  
 
 
 
