@@ -95,7 +95,7 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 - **Exemplo**: Determine a corrente no resistor de 50 ohms no circuito abaixo.
 
-> img 3
+![img3](https://cloud.githubusercontent.com/assets/3441126/9586505/9b252ec8-4ff3-11e5-9987-815cc66e0d4f.png)
 
 - **solução**:  Exceto ao elemento ao qual indagamos alguma grandeza, no caso a corrente no resistor de 50 ohm, procederemos com conversões Thevenin-Norton, visando simplificar o circuito por meio de associações de resistores e/ou fontes. Procedemos como segue:
 
@@ -105,7 +105,7 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 - **Exemplo 2**: Determine a tensão e a corrente no resistor de 100 ohm do circuito abaixo.
 
-> img 5
+![img5](https://cloud.githubusercontent.com/assets/3441126/9586589/1f60b586-4ff4-11e5-80a2-ff28e345b8d2.png)
 
 
 -----
@@ -194,6 +194,28 @@ No circuito acima, o funcionamente básico ocorre em virtude do posicionamento d
 ![img 17](https://cloud.githubusercontent.com/assets/3441126/9581037/6a4cd672-4fd3-11e5-96e3-71ea50d59cf8.png)
 
 **<p align="center"> Continua ...</p>**
+
+
+> Um tipo particularmente importante de diodo é o tradicional **light-emittind diode(LED)**. Este componente, disponivel comercialmente em varios formatos, tamanhos e cores, possui em sua composição, alem dos cristais de silicio, dopados com materiais P e N, outro elemento químico para a liberação dos photons da junção dos 2 cristais. Este elemento normalmente é o arceneto de galium (AsGa). É muito importante observar que todo LED, para qual o simbolo é um diodo com duas setas apontando para fora, requer normalmente um resistor em série com ele em qualquer um dos terminais para emitir luz na intensidade conveniente e sem ser danificado, conforme o circuito abaixo:
+
+> ![img 16](https://cloud.githubusercontent.com/assets/3441126/9587100/0d8ed1be-4ff7-11e5-9b17-a095853a33cc.png)
+
+
+> Para determinar o valor de R ideal, para trabalhar em conjunto com o LED, devemos recorrer ao manual do fabricante do LED para descobrir qual é a corrente que deve passar por ele para mante-lo iluminado sem que ele se danifique. Na prática, não recorremos, entretanto, aos manuais, pois em geral os LEDs trabalham idealmente com correntes entre 10 e 20 miliamperes. Desse modo determinamos `R` em função desse dado.
+
+> - Exemplo: Determine `R` no circuito acima considerando que a fonte é de 12v.
+
+> - Solução:
+>    U=RI
+>    R=U/I =  12-0.7/0.0113 (queda de tensao diodo(queda zener))
+>    11.3/0.0113 = 1000 ohm
+
+----------------
+
+### MINIPROVA 3
+ - Explique as diferenças existentes entre a retificação de meia onda e a retificação em ponte, comentando caracteristicas vantagens e desvantagens.
+
+---------------
 
 
 
