@@ -80,11 +80,11 @@ Desse modo, definimos:
 
  - **Equivalente de Thevenin**: Associação de uma fonte de tensão com um resistor em série, isto é:
  
-![img1](https://cloud.githubusercontent.com/assets/3441126/9579251/8f3e1664-4fc7-11e5-8551-67c2b65d6b9c.png)
+![img1](https://cloud.githubusercontent.com/assets/3441126/9579825/b1e4146c-4fcb-11e5-9288-f4e86ab8491b.png)
 
  - **Equivalente de Norton**: Associação, em paralelo, de uma fonte de corrente com um resistor, isto é:
 
-![img2](https://cloud.githubusercontent.com/assets/3441126/9579245/831b02ca-4fc7-11e5-85eb-77b7857f43fb.png)
+![img2](https://cloud.githubusercontent.com/assets/3441126/9579826/b333012a-4fcb-11e5-8019-b3d99b37dad9.png)
 
 
 A teoria envolvendo os equivalente de thevenin e Norton garante que para todo thevenin existe um Norton eletricamente equivalente e vise versa. Nas conversões os resistores mantem os seus valores e as transições de tensão para a corrente e vise versa são reguladas pela lei de ohm.
@@ -172,7 +172,28 @@ Além dos circuitos de retificação observados anteriormente, destacamos a util
 
 > img 14
 
-Notamos que o circuito acima não será danificado no caso de uma inversão de polaridade, devido ao diodo de proteção. Entretanto, com a polaridade invertida o circuito não funcionará. Podemos fazer uso de uma outra estrategia, comunmente utilizada nos macbooks da apple, para permitir que o circuito do labtop funcione normalmente indepemdente da polaridade em que a fonte é conectada. Podemos utilizar uma ponte de diodos, aproveitando a ideia da retificação em ponte, estudada anteriormente, para alimentar o circuito na polaridade correta, qualquer que seja a polaridade da conexão da fonte.
+Notamos que o circuito acima não será danificado no caso de uma inversão de polaridade, devido ao diodo de proteção. Entretanto, com a polaridade invertida o circuito não funcionará. Podemos fazer uso de uma outra estrategia, comunmente utilizada nos macbooks da apple, para permitir que o circuito do labtop funcione normalmente indepemdente da polaridade em que a fonte é conectada.
+
+Podemos utilizar uma ponte de diodos, aproveitando a ideia da retificação em ponte, estudada anteriormente, para alimentar o circuito na polaridade correta, qualquer que seja a polaridade da conexão da fonte.
+
+> img 15
+
+
+Interessantemente, percebemos que o uso da ponte de diodos na entrada dos laptops está restrito, atualmente, as maquinas da apple. Tal fato é devido, principalmente, ao custo, não dos diodos, mas sim dos componentes existentes dentro do carregador, pois este deverá fornecer quase `1,5v` a mais do que forneceria caso a ponte de diodos não existisse. circuitos tais como retificadores normalmente necessitar manter correntes consideraveis, e portanto o silicio deve ser adotado ao invez do germanio, implicando em queda de aproximadamente 0,7v por diodo. Tendo em vista que este modelo de retificador requer que a corrente circule por 2 diodos, justificamos os comentarios.
+
+
+Diodos são também comunmente utilizado em circuitos computacionais na confecção de memórias programadas em nível de hardware e com uma gravação única definida pelo fabricante. Por meio da propriedade de somente permitir a passagem da corrente elétrica em um único sentido, são aproveitados para definir estruturas de memória conhecidas como **matrizes de diodos**. Constituem configurações tais como a que segue:
+
+> img 16
+
+
+No circuito acima, o funcionamente básico ocorre em virtude do posicionamento dos diodos. Para ler dados da saída, basta conecta-la as entradas do circuito que irá receber os códigos gravados, que normalmente corresponde as entradas de algumas portas lógicas. Para que as saídas apresentem os códigos gravados em cada um dos endereços basta alimentar, com uma fonte de tensão, o endereço desejado, sendo que somente um endereço pode ser alimentado por vez. Tendo em vista a considerável sensibilidade das portas lógicas que receberão os sinasi de saída, nenhuma dessas linhas elétricas pode ficar desconectada de um nivel estabelecido de tensão, isto é, elas não podem "flutuar". Para isso a solução comunmente adotada é a ligação, em cada linha de saída, de um resistor de alto valor ao negativo de alimentação("terra"). Tais resistores, chamados de pull down, garantem que se não ouver nivel lógico 1 em determinada saída, ela estará fisicamente, ainda que passando pelo resistor, conectada ao nivel lógico 0, por outro lado, quando o nivel logico 1 estiver presente, os resistores em nada atrapalharão, pois desviam uma parcela infinea da corrente elétrica para o terra.
+
+ - **Exercicio**: Elabore uma memória baseada em matriz de diodos, contanto com os resistores de pulldown, que possibilite, em sua saida de 4 bits, a leitura de todos os valores binarios inteiros, entre 0 e 15, cada qual acessivel por meio de um endereço. Assim, no endereço `E0` deve estar gravado o valor 0, e assim por diante até o `E15`.
+
+![img 17](https://cloud.githubusercontent.com/assets/3441126/9581037/6a4cd672-4fd3-11e5-96e3-71ea50d59cf8.png)
+
+
 
 
 
