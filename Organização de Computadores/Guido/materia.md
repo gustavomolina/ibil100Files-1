@@ -193,6 +193,7 @@ No circuito acima, o funcionamente básico ocorre em virtude do posicionamento d
 
 ![img 17](https://cloud.githubusercontent.com/assets/3441126/9581037/6a4cd672-4fd3-11e5-96e3-71ea50d59cf8.png)
 
+**<p align="center"> Continua ...</p>**
 
 
 
