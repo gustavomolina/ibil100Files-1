@@ -172,7 +172,7 @@ Além dos circuitos de retificação observados anteriormente, destacamos a util
 
 > img 14
 
-Notamos que o circuito acima não será danificado no caso de uma inversão de polaridade, devido ao diodo de proteção. Entretanto, com a polaridade invertida o circuito não funcionará. Podemos fazer uso de uma outra estrategia, comunmente utilizada nos macbooks da apple, para permitir que o circuito do labtop funcione normalmente indepemdente da polaridade em que a fonte é conectada
+Notamos que o circuito acima não será danificado no caso de uma inversão de polaridade, devido ao diodo de proteção. Entretanto, com a polaridade invertida o circuito não funcionará. Podemos fazer uso de uma outra estrategia, comunmente utilizada nos macbooks da apple, para permitir que o circuito do labtop funcione normalmente indepemdente da polaridade em que a fonte é conectada. Podemos utilizar uma ponte de diodos, aproveitando a ideia da retificação em ponte, estudada anteriormente, para alimentar o circuito na polaridade correta, qualquer que seja a polaridade da conexão da fonte.
 
 
 
