@@ -80,11 +80,11 @@ Desse modo, definimos:
 
  - **Equivalente de Thevenin**: Associação de uma fonte de tensão com um resistor em série, isto é:
  
-> img 1
+![img1](https://cloud.githubusercontent.com/assets/3441126/9579251/8f3e1664-4fc7-11e5-8551-67c2b65d6b9c.png)
 
  - **Equivalente de Norton**: Associação, em paralelo, de uma fonte de corrente com um resistor, isto é:
 
-> img 2
+![img2](https://cloud.githubusercontent.com/assets/3441126/9579245/831b02ca-4fc7-11e5-85eb-77b7857f43fb.png)
 
 
 A teoria envolvendo os equivalente de thevenin e Norton garante que para todo thevenin existe um Norton eletricamente equivalente e vise versa. Nas conversões os resistores mantem os seus valores e as transições de tensão para a corrente e vise versa são reguladas pela lei de ohm.
@@ -167,6 +167,8 @@ A terceira tecnica de retificação, que é a mais propicea e mais utilizada ind
  
 --------------
 
+
+Além dos circuitos de retificação observados anteriormente, destacamos a utilidade dos diodos semicondutores no sentido de proteger equipamentos contra possíveis inversões de polaridade das fontes de alimentação. A ligação no carregador do labtop constitui um classico exemplo. Nos laptops mais comuns, o plug que conecta o carregador ao computador é do tipo **P2** ou similar. Este plug por si só, ja impede inversões de polaridade, pois não há como conecta-lo erroneamente, entretanto,  no caso da eventual quebra do cabo, e posterior conserto, pode haver descuito e inversão dos fios, nesse caso, um diodo semicondutor poderia ser utilizado para evitar que a corrente eletrica tende circular pelo circuito com a polaridade indevida, danificando-o. 
 
 
 
