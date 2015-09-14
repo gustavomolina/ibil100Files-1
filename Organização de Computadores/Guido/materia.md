@@ -225,6 +225,39 @@ Algumas modificações nas estruturas fisico-quimicas durante a construção dos
 
 Este diodo, quando diretamente polarizado, conduz normalmente a corrente elétrica, assim como o diodo retificador comum. Por outro lado, quando inversamente polarizado, isto é, quando ligado no sentido contrario de condução, pode tambem conduzir a corrente em proporções variaveis, de modo a fazer com que a tensão em seus terminais seja constante, mesmo mediante variações da tensão de entrada no arranjo divisor de tensão composto de um resistor e o diodo zener. Desse modo, o diodo zener funciona como um elemento estabilizador, isto é, regulador de tensão, conforme exemplificado a seguir:
 
+> img 19
+
+
+Os diodos zener não possuem valores ou código de cores. Ao contrario, eles possuem uma sigla que, de acordo com o manual do fabricante, especifica as suas caracteristicas comportamentais. Os principais parametros são a tensão de estabilização a tensão maxima de entrada, e a corrente, ou potencia, maxima que ele suporta. É ainda importante observar os calculos necessarios para determinar o valor mais ou menos propíceo do resistor que se associa ao zener na tabela de regulagem, tal como no circuito acima.
+
+Nesse circuito acima, imaginando que o circuito a ser alimentado com a tensão regulada de `5V` consuma uma corrente de `0.1A`. Desse modo temos:
+
+> img 20
+
+Alem disso, a potencia dissipada pelo zener e pelo resistor `R` podem ser calculadas.
+
+**<p align="center"> P = U . I</p>**
+
+Para o zener, temos `5V . 0.1A = 0.5W` , alem disso, para o resistor `R` temos ` 7V . 0.1 = 0.7W`.
+Resumindo, a compra dos componentes para este circuito corresponde a:
+
+ - 1 diodo zener para `5V` e `0.5W`
+ - 1 resistor de `70ohm` para `0.7W`
+
+Neste circuito em especifico é importante informar, no momento da compra, as potencias, pois, caso contrario, principamente no caso do resistor, a falta de especificação implicará na venda de componentes padrão, isto é, de um quarto ou oitavo de `w`, que neste caso, não suportariam o aquecimento. Finalmente lembramos que não são todos os possiveis valores de resistores que existem no comercio. No caso, `70 ohm` não é um valor comercial, sendo, `68 ohm` o valor comercial mais proximo. Para nós, este valor é adequado, pois o zener se auto-ajustará para balancear a diferença.
+
+-----------
+
+ - Exercicio: Projete um circuito estabilizador de tensão, com divisor de tensão por zener, que receba na entrada, tensão em torno de `9 v` para alimentar um processador com `3.3 V` e que consuma uma corrente maxima de `0.2 A`. Especifique os detalhes do zener e do resistor conjugado com base nas referidas caracteristicas.
+ 
+
+> img 21
+
+
+
+
+
+
 
 
 
