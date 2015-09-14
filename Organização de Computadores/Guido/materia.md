@@ -253,6 +253,21 @@ Neste circuito em especifico é importante informar, no momento da compra, as po
 
 > img 21
 
+Desse modo, o resistor `R` será de `28.5 ohm` por `1.14 W`. Comercialmente, os valores mais proximos disponíveis são: `27 ohm` e `2 W`. O zener por sua vez será de `3.3 V` por `0.66 W`. Comercialmente os valores mais proximos são: `3.3 V` por `1 W`.
+
+-----------
+
+Um outro tipo de diodo especial é conhecido como **diodo Varicap** que possui o seguinte simbolo elétrico:
+
+> img 22
+
+Este componente, quando diretamente polarizado, funciona como um diodo comum retificador. Por outro lado, quando inversamente polarizado, ele tambem funciona como um diodo retificador comum, mas com a particular propriedade de atuar como um capacitor, para qual a capacitancia depende da tensão que chega aos seus terminais. Na pratica, este componente é utilizado para substituir capacitores variaveis, que são muitas vezes mecanicamnete inviaveis. Desse modo, podemos controlar uma capacitancia com base em tensão, e não diretamente com base em ajuste mecanico.
+
+Injetando tensão no diodo inversamente polarizado, a agromeração dos portadores de carga em ambos os cristais de slicio dopados se aglomeram, simulando duas placas condutoras separadas por um isolante, trazendo assim o efeito capacitivo. Um caso classico de aplicação é o do circuito abaixo.
+
+> img 23
+
+
 
 
 
