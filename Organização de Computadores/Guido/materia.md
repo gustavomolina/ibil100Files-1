@@ -217,10 +217,13 @@ No circuito acima, o funcionamente básico ocorre em virtude do posicionamento d
 
 ---------------
 
+## Diodos Especiais
 
+Algumas modificações nas estruturas fisico-quimicas durante a construção dos diodos retificadores comuns, particularmente utilizando silicio ao invez de germanio, permite obter diodos que possuem comportamentos eletricos distintos dos tradicionais. Um tipo especial de diodo é conhecido como **zener** e possui o seguinte simbolo eletrico:
 
+> img 17
 
-
+Este diodo, quando diretamente polarizado, conduz normalmente a corrente elétrica, assim como o diodo retificador comum. Por outro lado, quando inversamente polarizado, isto é, quando ligado
 
 
 
