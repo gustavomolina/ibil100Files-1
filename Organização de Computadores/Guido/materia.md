@@ -268,6 +268,24 @@ Injetando tensão no diodo inversamente polarizado, a agromeração dos portador
 > img 23
 
 
+--------------
+
+## ARTIGO 1:
+
+Confeccionar um pequeno texto em latex e em ingles com no maximo 3 paginas, opcionalmente contendo figuras e tabelas, com formato livre, mas contendo ao menos:
+
+ - Abstract
+ - Discusão
+ - Referencias (3 ou 4 bastam)
+
+Com o tema ** A tecnologia de fabricação de circuitos integrados: Complementary Metal-oxide semiconductor (CMOS)**
+
+-------
+
+## Mini Prova 4
+ - Assumindo uma fonte de tensão continua, mas ajustável entre 10 e 20 volts, projete um pequeno circuito com zener para, mediante qualquer entrada de tensão na faixa mensionada, entregar na saida 6 volts, com capacidade para 50 miliamperes. Forneça as especificações completas do divisor de tensão formado pelo resistor e pelo zener.
+
+
 
 
 
