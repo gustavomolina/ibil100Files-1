@@ -334,6 +334,21 @@ Tendo em vista que o trimmer é normalmente muito pequeno e requer chaves de fen
 
 ----------------
 
+### Observação:
+
+Em meados da decada passada, a industria de computadores passou a utilizar com mais frequencia duas tecnicas de soldagem:
+
+ - Surface Mount Device (SMD)
+
+ - Ball Grid Array (BGA)
+
+Desenvolvendo inclusive estações de solda propiceas para cada uma das respectivas tecnicas. Basicamente, na primeira, os componentes eletronicos possuiem os terminais bem proximos um dos outros e bem curtos, pois a fixação mecania e a soldagem ocorem do mesmo lado da placa de circuito impresso. No segundo modelo além da fixação mecanica e da soldagem serem efetuadas do mesmo lado da placa, os componentes eletronicos são fabricados de modo que os seus terminais sejam na verdade micro bolas de cobre localizadas em baixo do componente 
+
+### MiniProva 5
+
+ - Discuta prevemente as diferenças dos padrões SMD e BGA de soldagem, tentando justificar o porque do uso deles, principalmente o segundo, pela industria de computação. Inclua comentarios sobre o maquinario necessario para produzir soldas em cada uma das tecnicas e uma figura relacionada com cada uma das tecnicas.
+
+
 
 
 
