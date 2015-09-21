@@ -313,9 +313,24 @@ O controle dos processadores é uma das aplicações que depende dos cristais de
 
 Assim, por exemplo, tratar computacionalmente um sinal acustico musical, implica normalmente em fazer com que o conversor A/D  trabalhe na taixa de 44.100 amostras por segundo, pois o ouvido humano somente percebe frequencias até o limite de 22.050 hz. Um oscilador preciso naquela frequencia, é por portanto necessario, para fazer com que o conversor A/D capture uma amostra a cada 1/44100 segundos, sendo que as capturas toda vez que haver uma borda de subida ou descida (conforme o projeto).
 
-
 > img 27 
 
+
+ - OBS 
+
+Algumas vezes é necessario realizar um pequeno ajuste na frequencia de vibração de um oscilador à cristal. Em principio, só poderiamos fazer isso industrialmente, alterando as dimenções e o formato do cristal. Este processo, entretanto, pode ser impraticável, principalmente, se o ajuste pretendido é algo, por exemplo, fazer com que o cristal industrializado para vibrar em 30 MHz passe a vibrar em 29.999 ou 30.0001 MHz. Uma possibilidade alternativa para realizar este ajuste, sem alterar fisicamente o cristal, é, conforme percebido e comprovado por fisicos e engenheiros, adicionar uma capacitancia em serie com o cristal isto é
+
+> img 28
+
+Conforme o valor do capacitor dar se a maior ou menor nivel de variação em sua frequencia, mas obviamente dentro de uma minima faixa, assim por exempo, um oscilador variavel na faixa de 29.999 até 30.0001 pode ser obtido utilizando um capacitor ajustável, ou variavel, em serie com o cristal
+
+> img 29 
+
+
+Tendo em vista que o trimmer é normalmente muito pequeno e requer chaves de fenda para o seu ajuste e que o capacitor variável é muito grande e caro, é comum utilizar, em serie com os cristais um terceiro componente elétricamente equivalente e que possui a sua capacitancia variavel em função da tensão continua que nele chega. Este componente, conforme ja comentamos, o **diodo varicap**. Nesse caso, o arranjo circuital típico é normalmente similar ao exposto a seguir
+
+> img 30
+----------------
 
 
 
