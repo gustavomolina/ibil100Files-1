@@ -285,8 +285,36 @@ Com o tema ** A tecnologia de fabricação de circuitos integrados: Complementar
 ## Mini Prova 4
  - Assumindo uma fonte de tensão continua, mas ajustável entre 10 e 20 volts, projete um pequeno circuito com zener para, mediante qualquer entrada de tensão na faixa mensionada, entregar na saida 6 volts, com capacidade para 50 miliamperes. Forneça as especificações completas do divisor de tensão formado pelo resistor e pelo zener.
 
+-------------
+
+## Osciladores e Cristrais
+
+Na eletrónica, inclusive nos circuitos computacionais, o componente conhecido como **cristal de quartzo** consiste de um elemento que possui extrema estabilidade para controlar frequencias de ressonancia, ou frequencias de vibração. Particularmente, os circuitos conhecidos como **osciladores** são aqueles que produzem vibrações, em nosso caso, vibrações eletricas, caracterizadas por variações periódicas de tensão ao longo do tempo, comumente expressas em modo gráfico por meio de ondas, tais como a onda **quadrada**, **retangular**, **senoidal**, **triangular**, entre outra.
 
 
+![wavetypes](https://cloud.githubusercontent.com/assets/3441126/9992658/e252a90e-6049-11e5-97d0-202444fd5b74.gif)
+
+
+Eletricamente, o ocilador é um amplificador no qual parte do sinal de saida retorna à entrada, estabelecendo assim, um **ciclo**. Existem diversas formas de controlar como a parcela que retorna à entrada se comporta, o que influencia diretamente na frequencia e na amplitude do sinal alternado do ocilador. Resistores, capacitores e indutores são opções para o controle deste retorno, e portanto, da frequencia de ocilação. Tais componetes, entre tanto, possui caracteristicas fisicas que facilmente se alteram em função da temperatura, pressão, umidade do ambiente, entre outros fatores. **O cristal de quartzo**, por outro lado, é, conforme mencionado, **extremamente estável**, quase não sofrendo a influencia de fatores externos. A sua frequencia de resonancia é dada por suas dimensões fisicas e pelo modo como ele é cortado, ou lapidado industrialmente. Particularmente, dizemos que o quartzo é um cristal, ou material, **piezoelétrico**, isto é, vibra mediante um esforço mecanico ou elétrico aplicado em seus terminais.
+
+Um exemplo segue:
+
+> img25
+
+No circuito acima, o simbolo **-| D |-** representa o cristal de quartzo. Observamos que, por meio de um resistor, parte da tensão presente na saida da porta lógica retorna a sua entrada via resistor. Este retorno é a condição que comentamos inicialmente para a manutenção da oscilação. Alem disso, o resistor alimenta o cristal, cauzando nele, uma pressão elétrica, o que faz com que ele vibre na frequencia para a qual ele foi cortado, ou lapidado. Desse modo, por exemplo, se requisitamos na industria eletrónica o corte de um cristal para 7mhz, por exemplo, e utilizamos ele no circuito acima, então obteremos na saida da porta logica, esta mesma frequencia.
+
+Uma particularidade interessante é o simbolo:
+
+> img 26 (Z)
+
+que esta inserido dentro da porta lógica, ele significa que a porta lógica não é comum, mas sim do tipo **gatilho de Smith** (Smith Trigger). Isso significa que esta porta lógica defini muito bem as transições entre `0` e `1`, correndo pouco ou nenhum risco de ficar "confusa" com variações suaves presentes na sua entrada. Por isso, este tipo de porta é normalmente utilizada em osciladores para os quais a intenção é obter na saida uma forma de onda quadrada. 
+
+O controle dos processadores é uma das aplicações que depende dos cristais de quartzo, pois é sempre necessario haver um oscilador extremamente preciso que controla a frequencia do seu funcionamento, isto é, o tempo do ciclo de maquina. Normalmente um ciclo de maquina ocorre a cada borda de subida, ou borda de descida, da onda quadrada o ocilador. Os conversores analogico para digital tambem constituem circuitos computacionais e dependem da precisão proporcionada pelos cristais, pois sabemos que o precessamento de um tipo qualquer de sinal analogico em um computador está baseado no **teorema da amostragem**.
+
+Assim, por exemplo, tratar computacionalmente um sinal acustico musical, implica normalmente em fazer com que o conversor A/D  trabalhe na taixa de 44.100 amostras por segundo, pois o ouvido humano somente percebe frequencias até o limite de 22.050 hz. Um oscilador preciso naquela frequencia, é por portanto necessario, para fazer com que o conversor A/D capture uma amostra a cada 1/44100 segundos, sendo que as capturas toda vez que haver uma borda de subida ou descida (conforme o projeto).
+
+
+> img 27 
 
 
 
