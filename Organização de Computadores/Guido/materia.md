@@ -137,7 +137,7 @@ Não esquecemos que o diodo, para funcionarem, como comentado, possuem uma junç
 
 Um fato relevante que envolve o uso de diodos é que, estando diretamente polarizado, isto é, permitindo a passagem da corrente eletrica, o diodo força uma queda de tensão que é percebida mesmo sem fluxo de corrente, queda esta que está em torno de 0.6 a 0.7 `v` nos diodos de silicio e 0.1 a 0.2 `v` nos diodos de germanio. Este comportamento se distingue daquele ocorrido com materiais condutores, tais como os que compoe os resistores. Nestes, a falta de fluxo de eletrons, isto é, corrente eletrica nula, implica em manutenção da tensão da fonte 
 
-> img 9 
+![img9](https://cloud.githubusercontent.com/assets/13787877/10101762/f8206d14-6370-11e5-934d-8197fdca5210.png)
 
 Percebe-se frequentemente a aplicação dos diodos em circuitos eletronicos tais como os de computadores, particularmente, nas fontes de alimentação. Presentes nos desktops e nos carregadores dos laptops os diodos possuem papel fundamental na conversão da tensão alternada da rede eletrica em tensão continua e de polaridade fixa necessaria para alimentar os componentes eletronicos dos circuitos computacionais.
 
