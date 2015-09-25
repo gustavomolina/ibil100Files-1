@@ -281,7 +281,7 @@ Desse modo, o resistor `R` será de `28.5 ohm` por `1.14 W`. Comercialmente, os 
 
 Um outro tipo de diodo especial é conhecido como **diodo Varicap** que possui o seguinte simbolo elétrico:
 
-> img 22
+![img22](https://cloud.githubusercontent.com/assets/13787877/10104946/ae0d8628-6382-11e5-876c-d825ff013959.png)
 
 Este componente, quando diretamente polarizado, funciona como um diodo comum retificador. Por outro lado, quando inversamente polarizado, ele tambem funciona como um diodo retificador comum, mas com a particular propriedade de atuar como um capacitor, para qual a capacitancia depende da tensão que chega aos seus terminais. Na pratica, este componente é utilizado para substituir capacitores variaveis, que são muitas vezes mecanicamnete inviaveis. Desse modo, podemos controlar uma capacitancia com base em tensão, e não diretamente com base em ajuste mecanico.
 
