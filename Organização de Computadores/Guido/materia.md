@@ -178,7 +178,7 @@ Notamos que o circuito acima não será danificado no caso de uma inversão de p
 
 Podemos utilizar uma ponte de diodos, aproveitando a ideia da retificação em ponte, estudada anteriormente, para alimentar o circuito na polaridade correta, qualquer que seja a polaridade da conexão da fonte.
 
-> img 15
+![img15](https://cloud.githubusercontent.com/assets/13787877/10103884/d68e9944-637c-11e5-9c1e-13d801721411.png)
 
 
 Interessantemente, percebemos que o uso da ponte de diodos na entrada dos laptops está restrito, atualmente, as maquinas da apple. Tal fato é devido, principalmente, ao custo, não dos diodos, mas sim dos componentes existentes dentro do carregador, pois este deverá fornecer quase `1,5v` a mais do que forneceria caso a ponte de diodos não existisse. circuitos tais como retificadores normalmente necessitar manter correntes consideraveis, e portanto o silicio deve ser adotado ao invez do germanio, implicando em queda de aproximadamente 0,7v por diodo. Tendo em vista que este modelo de retificador requer que a corrente circule por 2 diodos, justificamos os comentarios.
