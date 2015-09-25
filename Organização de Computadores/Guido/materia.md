@@ -112,7 +112,7 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 - **Exemplo 3**: Idem anterior, invertendo a polaridade da fonte de `30 v` e associando, em serie com a fonte de `5 v`, de modo contraposto, outra fonte de `5 V`
 
-> img 6 
+![img6](https://cloud.githubusercontent.com/assets/13787877/10100944/b354a4d4-636b-11e5-8a18-1a96582eb335.png)
 
 
 > **OBS**: Em nenhum momento encontraremos 2 fontes de corrente em série, a não ser que ambas possuem o mesmo valor de corrente e o mesmo sentido de polariadade. Caso contrario teriamos uma situação fisica impossivel, pois se a fonte de corrente mantem a corrente constante e a corrente é a mesma para todos os elementos de uma associação em serie, não podemos admitir situação divergente. Por outro lado, são admissiveis fontes de tensão em paralelo, situação na qual a tensão equivalente é a da maior das fontes e a corrente equivalente é a soma das correntes individuais. As polaridades dessas fontes de tensão não devem entretanto, ser contrapostas.
