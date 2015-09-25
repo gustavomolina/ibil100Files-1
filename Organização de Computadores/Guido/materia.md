@@ -129,7 +129,7 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 Conforme ja vimos anteriormente, os diodos constituem componentes que permitem a passagem da corrente eletrica apenas em um sentido, impedindo o fluxo de eletrons no sentido oposto desde que seja respeitado o limite maximo de tensão aplicada ao componente, pois, uma vez ultrapaçado o limiar, o diodo pode entrar em curto-circuito, permitindo a passagem da corrente em ambos os sentidos ou abrir-se, tornando-se um isolante. Fabricado com base nos materiais semicondutores silicio ou germanio, possui como simbolo eletrico:
 
-> img 8
+![img8](https://cloud.githubusercontent.com/assets/13787877/10101577/eafe5d72-636f-11e5-989a-71d3bd762256.png)
 
 Sendo `A` e `K`, respectivamente, os terminais anodo e catodo, ou seja, o que deve ficar com potencial mais positivo e mais negativo respectivamente, de modo a permitir a passagem da corrente eletrica, situação na qual dizemos que o componente está diretamente polarizado. Ligado ao contrario, dizemos que esta reversamente polarizado.
 
