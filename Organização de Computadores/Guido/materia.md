@@ -145,8 +145,8 @@ Sabemos que a geração e transmição de energia eletrica entrega para os usuar
 
 De qualquer forma, as tensões reduzidas com o uso de transformadores continuam sendo alternadas e os circuitos eletronicos computacionais somente aceitam tensões continuas. A conversão das tensões alternadas para continuas constituem um processo conhecido como **retificação** e que pode ser realizado utilizando-se diodos.
 
-> img 10
-
+![img10](https://cloud.githubusercontent.com/assets/13787877/10101861/931ccc40-6371-11e5-9ee4-a15155ab4701.png)
+![img10b](https://cloud.githubusercontent.com/assets/13787877/10102017/a881307a-6372-11e5-924f-86b169f15776.png)
 A conversão da tensão alternada em tensão continua, realizada conforme o circuito que segue, com um unico diodo, é conhecida como retificação de meia-onda.
 
 > img 11
