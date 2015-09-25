@@ -321,7 +321,7 @@ Eletricamente, o ocilador é um amplificador no qual parte do sinal de saida ret
 
 Um exemplo segue:
 
-> img25
+![img25](https://cloud.githubusercontent.com/assets/13787877/10105333/886fee18-6384-11e5-875b-06dda4da4376.png)
 
 No circuito acima, o simbolo **-| D |-** representa o cristal de quartzo. Observamos que, por meio de um resistor, parte da tensão presente na saida da porta lógica retorna a sua entrada via resistor. Este retorno é a condição que comentamos inicialmente para a manutenção da oscilação. Alem disso, o resistor alimenta o cristal, cauzando nele, uma pressão elétrica, o que faz com que ele vibre na frequencia para a qual ele foi cortado, ou lapidado. Desse modo, por exemplo, se requisitamos na industria eletrónica o corte de um cristal para 7mhz, por exemplo, e utilizamos ele no circuito acima, então obteremos na saida da porta logica, esta mesma frequencia.
 
