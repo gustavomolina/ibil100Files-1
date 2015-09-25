@@ -158,7 +158,8 @@ Uma variação da retificação em meia onda é a retificação em onda completa
 
 A terceira tecnica de retificação, que é a mais propicea e mais utilizada industrialmente, utiliza 4 diodos e é conhecida como retificação em ponte, estabelencendo-se conforme o circuito abaixo.
 
-> img 13
+![img13_](https://cloud.githubusercontent.com/assets/13787877/10103294/71840e4c-6379-11e5-90a1-61ffb63a9a31.png)
+
 
 -----------
 
