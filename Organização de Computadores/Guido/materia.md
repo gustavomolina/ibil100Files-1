@@ -154,7 +154,7 @@ A saída está mais próxima do ideal, mas ainda existem flutuações, pois meta
 
 Uma variação da retificação em meia onda é a retificação em onda completa que se faz com base em dois diodos, e é possivel quando o secundario do transformador possui uma derivação central, que é utilizada como terra, ou referencia. O efeito entretanto é o mesmo do circuito anterior. O esquema eletrico segue:
 
-> img 12
+![img12_](https://cloud.githubusercontent.com/assets/13787877/10102899/7176f77c-6377-11e5-8c76-631cc428a070.png) 
 
 A terceira tecnica de retificação, que é a mais propicea e mais utilizada industrialmente, utiliza 4 diodos e é conhecida como retificação em ponte, estabelencendo-se conforme o circuito abaixo.
 
