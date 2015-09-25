@@ -327,7 +327,7 @@ No circuito acima, o simbolo **-| D |-** representa o cristal de quartzo. Observ
 
 Uma particularidade interessante é o simbolo:
 
-> img 26 (Z)
+![img26](https://cloud.githubusercontent.com/assets/13787877/10105424/f98833b2-6384-11e5-94e3-aeafabadc943.png)
 
 que esta inserido dentro da porta lógica, ele significa que a porta lógica não é comum, mas sim do tipo **gatilho de Smith** (Smith Trigger). Isso significa que esta porta lógica defini muito bem as transições entre `0` e `1`, correndo pouco ou nenhum risco de ficar "confusa" com variações suaves presentes na sua entrada. Por isso, este tipo de porta é normalmente utilizada em osciladores para os quais a intenção é obter na saida uma forma de onda quadrada. 
 
