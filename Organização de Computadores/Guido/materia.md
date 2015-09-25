@@ -149,7 +149,8 @@ De qualquer forma, as tensões reduzidas com o uso de transformadores continuam 
 ![img10b](https://cloud.githubusercontent.com/assets/13787877/10102017/a881307a-6372-11e5-924f-86b169f15776.png)
 A conversão da tensão alternada em tensão continua, realizada conforme o circuito que segue, com um unico diodo, é conhecida como retificação de meia-onda.
 
-> img 11
+![img11](https://cloud.githubusercontent.com/assets/13787877/10102679/2d6d3ee8-6376-11e5-8f5b-8f33f336a111.png)
+A saída está mais próxima do ideal, mas ainda existem flutuações, pois metade de cada período senoidal é periodo
 
 Uma variação da retificação em meia onda é a retificação em onda completa que se faz com base em dois diodos, e é possivel quando o secundario do transformador possui uma derivação central, que é utilizada como terra, ou referencia. O efeito entretanto é o mesmo do circuito anterior. O esquema eletrico segue:
 
