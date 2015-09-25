@@ -234,7 +234,27 @@ Os diodos zener não possuem valores ou código de cores. Ao contrario, eles pos
 
 Nesse circuito acima, imaginando que o circuito a ser alimentado com a tensão regulada de `5V` consuma uma corrente de `0.1A`. Desse modo temos:
 
-> img 20
+`U = (R+r)I`
+
+`U = 12`
+
+`I = 0,1`
+
+`R+r = 12/0,1 => R+r = 120 ohms`
+
+`U=rI`
+
+`5=r.0,1`
+
+`r=5/0,1`
+
+`r = 50 ohms`
+
+`R+r = 120`
+
+`R = 120-r => R = 70ohms`
+
+
 
 Alem disso, a potencia dissipada pelo zener e pelo resistor `R` podem ser calculadas.
 
