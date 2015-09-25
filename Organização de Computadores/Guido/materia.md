@@ -273,7 +273,7 @@ Neste circuito em especifico é importante informar, no momento da compra, as po
  - Exercicio: Projete um circuito estabilizador de tensão, com divisor de tensão por zener, que receba na entrada, tensão em torno de `9 v` para alimentar um processador com `3.3 V` e que consuma uma corrente maxima de `0.2 A`. Especifique os detalhes do zener e do resistor conjugado com base nas referidas caracteristicas.
  
 
-> img 21
+![img21](https://cloud.githubusercontent.com/assets/13787877/10104897/6859c8ee-6382-11e5-8632-829a6035ce58.png)
 
 Desse modo, o resistor `R` será de `28.5 ohm` por `1.14 W`. Comercialmente, os valores mais proximos disponíveis são: `27 ohm` e `2 W`. O zener por sua vez será de `3.3 V` por `0.66 W`. Comercialmente os valores mais proximos são: `3.3 V` por `1 W`.
 
