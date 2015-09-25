@@ -119,7 +119,7 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 > **OBS**: Toda a teoria que envolve os equivalentes Thevenin e Norton pode tambem ser utilizada quando as fontes de alimentação existentes sob o circuito sobre analise forem alternadas. Nesse caso, costumamos utilizar como simbolos representantes das fontes de tensão correntes alternadas respectivamente:
 
-> img 7
+![img7_](https://cloud.githubusercontent.com/assets/13787877/10101519/9c8ab348-636f-11e5-8462-ba0696c483cd.png)
 
 > Alem de considerarmos os elementos `R`, `L` e `C` com as impedancias complexas já estudadas. Neste ambito as fontes são tambem tratadas em uma abordagem vetorial, constumeiramente conhecida como fasores e tensão em corrente 
 
