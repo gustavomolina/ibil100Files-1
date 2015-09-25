@@ -172,7 +172,7 @@ A terceira tecnica de retificação, que é a mais propicea e mais utilizada ind
 
 Além dos circuitos de retificação observados anteriormente, destacamos a utilidade dos diodos semicondutores no sentido de proteger equipamentos contra possíveis inversões de polaridade das fontes de alimentação. A ligação no carregador do labtop constitui um classico exemplo. Nos laptops mais comuns, o plug que conecta o carregador ao computador é do tipo **P2** ou similar. Este plug por si só, ja impede inversões de polaridade, pois não há como conecta-lo erroneamente, entretanto,  no caso da eventual quebra do cabo, e posterior conserto, pode haver descuito e inversão dos fios, nesse caso, um diodo semicondutor poderia ser utilizado para evitar que a corrente eletrica tende circular pelo circuito com a polaridade indevida, danificando-o.
 
-> img 14
+![img14](https://cloud.githubusercontent.com/assets/13787877/10103743/28631854-637c-11e5-9546-a1a81b450c99.png)
 
 Notamos que o circuito acima não será danificado no caso de uma inversão de polaridade, devido ao diodo de proteção. Entretanto, com a polaridade invertida o circuito não funcionará. Podemos fazer uso de uma outra estrategia, comunmente utilizada nos macbooks da apple, para permitir que o circuito do labtop funcione normalmente indepemdente da polaridade em que a fonte é conectada.
 
