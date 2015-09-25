@@ -99,7 +99,7 @@ Diante do exposto, passamos a analisar alguns exemplos.
 
 - **solução**:  Exceto ao elemento ao qual indagamos alguma grandeza, no caso a corrente no resistor de 50 ohm, procederemos com conversões Thevenin-Norton, visando simplificar o circuito por meio de associações de resistores e/ou fontes. Procedemos como segue:
 
-> img 4
+![img4](https://cloud.githubusercontent.com/assets/13787877/10100558/f85a5e3c-6368-11e5-8fce-66bac10588ad.png)
 
 -------------------
 
