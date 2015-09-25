@@ -227,7 +227,7 @@ Algumas modificações nas estruturas fisico-quimicas durante a construção dos
 
 Este diodo, quando diretamente polarizado, conduz normalmente a corrente elétrica, assim como o diodo retificador comum. Por outro lado, quando inversamente polarizado, isto é, quando ligado no sentido contrario de condução, pode tambem conduzir a corrente em proporções variaveis, de modo a fazer com que a tensão em seus terminais seja constante, mesmo mediante variações da tensão de entrada no arranjo divisor de tensão composto de um resistor e o diodo zener. Desse modo, o diodo zener funciona como um elemento estabilizador, isto é, regulador de tensão, conforme exemplificado a seguir:
 
-> img 19
+![img19](https://cloud.githubusercontent.com/assets/13787877/10104584/ccba5cce-6380-11e5-92ec-8bf10f3f1cd0.png)
 
 
 Os diodos zener não possuem valores ou código de cores. Ao contrario, eles possuem uma sigla que, de acordo com o manual do fabricante, especifica as suas caracteristicas comportamentais. Os principais parametros são a tensão de estabilização a tensão maxima de entrada, e a corrente, ou potencia, maxima que ele suporta. É ainda importante observar os calculos necessarios para determinar o valor mais ou menos propíceo do resistor que se associa ao zener na tabela de regulagem, tal como no circuito acima.
