@@ -287,7 +287,8 @@ Este componente, quando diretamente polarizado, funciona como um diodo comum ret
 
 Injetando tensão no diodo inversamente polarizado, a agromeração dos portadores de carga em ambos os cristais de slicio dopados se aglomeram, simulando duas placas condutoras separadas por um isolante, trazendo assim o efeito capacitivo. Um caso classico de aplicação é o do circuito abaixo.
 
-> img 23
+![img23](https://cloud.githubusercontent.com/assets/13787877/10119174/d0d00964-6464-11e5-85c0-7d9534843583.png)
+
 
 
 --------------
