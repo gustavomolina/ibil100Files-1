@@ -346,7 +346,7 @@ Algumas vezes é necessario realizar um pequeno ajuste na frequencia de vibraç�
 
 Conforme o valor do capacitor dar se a maior ou menor nivel de variação em sua frequencia, mas obviamente dentro de uma minima faixa, assim por exempo, um oscilador variavel na faixa de 29.999 até 30.0001 pode ser obtido utilizando um capacitor ajustável, ou variavel, em serie com o cristal
 
-![img29](https://cloud.githubusercontent.com/assets/13787877/10118940/b000c95a-645d-11e5-9af5-3cd12a345ba0.png)
+![img29](https://cloud.githubusercontent.com/assets/13787877/10118962/3384bf70-645e-11e5-9a72-8546e89e74f5.png)
 
 
 Tendo em vista que o trimmer é normalmente muito pequeno e requer chaves de fenda para o seu ajuste e que o capacitor variável é muito grande e caro, é comum utilizar, em serie com os cristais um terceiro componente elétricamente equivalente e que possui a sua capacitancia variavel em função da tensão continua que nele chega. Este componente, conforme ja comentamos, o **diodo varicap**. Nesse caso, o arranjo circuital típico é normalmente similar ao exposto a seguir
