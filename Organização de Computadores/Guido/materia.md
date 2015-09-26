@@ -351,7 +351,7 @@ Conforme o valor do capacitor dar se a maior ou menor nivel de variação em sua
 
 Tendo em vista que o trimmer é normalmente muito pequeno e requer chaves de fenda para o seu ajuste e que o capacitor variável é muito grande e caro, é comum utilizar, em serie com os cristais um terceiro componente elétricamente equivalente e que possui a sua capacitancia variavel em função da tensão continua que nele chega. Este componente, conforme ja comentamos, o **diodo varicap**. Nesse caso, o arranjo circuital típico é normalmente similar ao exposto a seguir
 
-![img30](https://cloud.githubusercontent.com/assets/13787877/10119083/3b5bda22-6462-11e5-9f9d-a76f9a87cccf.png)
+![img30](https://cloud.githubusercontent.com/assets/13787877/10119101/e149b094-6462-11e5-95da-ccfb84331c89.png)
 
 
 ----------------
