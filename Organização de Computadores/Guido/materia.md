@@ -342,7 +342,7 @@ Assim, por exemplo, tratar computacionalmente um sinal acustico musical, implica
 
 Algumas vezes é necessario realizar um pequeno ajuste na frequencia de vibração de um oscilador à cristal. Em principio, só poderiamos fazer isso industrialmente, alterando as dimenções e o formato do cristal. Este processo, entretanto, pode ser impraticável, principalmente, se o ajuste pretendido é algo, por exemplo, fazer com que o cristal industrializado para vibrar em 30 MHz passe a vibrar em 29.999 ou 30.0001 MHz. Uma possibilidade alternativa para realizar este ajuste, sem alterar fisicamente o cristal, é, conforme percebido e comprovado por fisicos e engenheiros, adicionar uma capacitancia em serie com o cristal isto é
 
-> img 28
+![img28](https://cloud.githubusercontent.com/assets/13787877/10118901/d07d3c4c-645b-11e5-9063-389b7c0db649.png)
 
 Conforme o valor do capacitor dar se a maior ou menor nivel de variação em sua frequencia, mas obviamente dentro de uma minima faixa, assim por exempo, um oscilador variavel na faixa de 29.999 até 30.0001 pode ser obtido utilizando um capacitor ajustável, ou variavel, em serie com o cristal
 
