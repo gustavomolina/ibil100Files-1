@@ -335,7 +335,7 @@ O controle dos processadores é uma das aplicações que depende dos cristais de
 
 Assim, por exemplo, tratar computacionalmente um sinal acustico musical, implica normalmente em fazer com que o conversor A/D  trabalhe na taixa de 44.100 amostras por segundo, pois o ouvido humano somente percebe frequencias até o limite de 22.050 hz. Um oscilador preciso naquela frequencia, é por portanto necessario, para fazer com que o conversor A/D capture uma amostra a cada 1/44100 segundos, sendo que as capturas toda vez que haver uma borda de subida ou descida (conforme o projeto).
 
-> img 27 
+![img27](https://cloud.githubusercontent.com/assets/13787877/10118897/95abf6c6-645b-11e5-9417-5a1fbfdf08d2.png)
 
 
  - OBS 
