@@ -434,7 +434,9 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
 O sistema é um bom investimento?
 
 **1) Cálculo**: Cada fase do ciclo tem um custo, em que é preciso considerar o pessoal, o equipamento, materiais, despesas gerais, entre outros.
+
 **2) Análise**: Ver qual é a expectativa de economia para uma média de **5 anos** de utilização do sistema.
+
 **3) Risco**: Quanto maior o risco, mais alta a taxa de retorno necessária.
 
 ### Inspeção e Revisões
@@ -442,31 +444,30 @@ O sistema é um bom investimento?
 -  **Revisão**: **Informal**, feita antes de apresentar a documentação para uma equipe de inspeção.
 
 ###### Fases do Processo de Inspeção
-  **1) Planejamento**: A inspeção deve ser prevista no cronograma do projeto e tão logo a documentação esteja concluída, deve ser agendada a reunião.
+    **1) Planejamento**: A inspeção deve ser prevista no cronograma do projeto e tão logo a documentação esteja concluída, deve ser agendada a reunião.
   
-  **2) Preparação**: Leitura antecipada da documentação pelos inspetores e moderador, anotando as perguntas e os problemas encontrados.
+    **2) Preparação**: Leitura antecipada da documentação pelos inspetores e moderador, anotando as perguntas e os problemas encontrados.
   
-  **3) Sessão de inspeção**: Um dos inspetores faz um resumo dos pontos-chaves da documentação e o autor responde às perguntas. O objetivo dessa sessão é encontrar erros e não corrigir.
+    **3) Sessão de inspeção**: Um dos inspetores faz um resumo dos pontos-chaves da documentação e o autor responde às perguntas. O objetivo dessa sessão é encontrar erros e não corrigir.
   
-  **4) Reelaboração**: Após a inspeção, o autor e o moderador se reúnem para discutir os erros encontrados e o tempo estimada para reelaboração do documento.
+    **4) Reelaboração**: Após a inspeção, o autor e o moderador se reúnem para discutir os erros encontrados e o tempo estimada para reelaboração do documento.
   
-  **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
+    **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
   
   
 ###### Pontos de Inspeção - Perguntas-Chave:
   
-  **1) Análise**: O analista realmente compreende o problema? - Representantes dos usuários na equipe de inspeção.
+    **1) Análise**: O analista realmente compreende o problema? - Representantes dos usuários na equipe de inspeção.
   
-  **2) Projeto**: As alternativas apresentadas são tecnicamente realistas e resolverão o problema do usuário? (usuário pode responder) - Representantes dos usuários e dos programadores.
+    **2) Projeto**: As alternativas apresentadas são tecnicamente realistas e resolverão o problema do usuário? (usuário pode responder) - Representantes dos usuários e dos programadores.
   
-  **3) Projeto detalhado**: O programador pode descrever o código baeando-se nestas especificações?
+    **3) Projeto detalhado**: O programador pode descrever o código baeando-se nestas especificações?
   
   **4) Implmentação**: O código satisfaz as especificações? Como o teste do sistema Normalmente é marcado no final desta fase, a inserção formal pode não ser realizada. É importante considerar a inspeção para os documentos de procedimentos operacionais (manual do sistema e do usuário).
     
 ### Análise estruturada - Proposta:
 
   - Construção de um modelo lógico do sistema moldado de forma gráfica que facilite a compreensão e a visualização global das necessidades dos clientes/usuários.
-
   Ferramentas de análise são importantes. Algumas caracterísitcas:
     - Ser gráfico com detalhamento textual de apoio.
     - Permitir a divisão do modelo.
@@ -479,6 +480,7 @@ O sistema é um bom investimento?
   - Documentar e permitir que outros profissionais possam assumir o trabalho iniciado por outra pessoa.
   
   Modelagem funcional e fluxo de informações:
+  
     **Elementos básicos**:
       - Entrada
       - Transformação
