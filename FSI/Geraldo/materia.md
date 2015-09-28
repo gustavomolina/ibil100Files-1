@@ -324,7 +324,7 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
  - Perguntas objetivas 
  - Evitar constrangimento dos participantes
  
-**Procedimentos para entrevista**:
+ ###### Procedimentos para entrevista:
 
  - **Antes**: Planejar; Identificar a posição e responsabilidades do entrevistado (evitar constrangimento); Marcar horário com antecedência; Escolher local sossegado.
  - **Durante**: Apresenta-se informando a finalidade da entrevista e porque o entrevistado foi selecionado; Explique as anotações que fizer (anotar pontos chaves); Não demore mais que duas horas (tempo limite alto); Encerre com observação positiva (fale que a pessoa ajudou e depois fará revisão da entrevista).
