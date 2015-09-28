@@ -336,7 +336,7 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
  - Preparar antecipadamente com questões objetivas.
  - **Desvantagem**: comunicação com usuários é restrita, não há troca de informação face a face.
  
- ####Procedimento para aplicar Questionário:
+ ###### Procedimento para aplicar Questionário:
  
   - **Preparação**: Identificar o tipo de informação que deseja obter; Escolher o formato adequado; Deixar espaço suficiente para resposta; Elaborar questões claras; Enviar carta acompanhando o questionário enfatizando sua importância.
   - **Identificar os respondentes**: Nome, função e localização; Controlar para que todos recebam.
