@@ -452,7 +452,9 @@ O sistema é um bom investimento?
   
   **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
   
+  
   ###### Pontos de Inspeção - Perguntas-Chave:
+  
     **1) Análise**: O analista realmente compreende o problema? - Representantes dos usuários na equipe de inspeção.
     
     **2) Projeto**: As alternativas apresentadas são tecnicamente realistas e resolverão o problema do usuário? (usuário pode responder) - Representantes dos usuários e dos programadores.
