@@ -192,3 +192,71 @@ No entanto, existem algumas técnicas para redzir o tempo de desenvolvimento:
   - usar melhores linguagens de programação
   - usar controles de engenharia de software
   - usar ferramentas automatizadas
+  
+  
+  ------------
+> Aula: 01 de setembro
+
+----------
+
+**2) Confiabilidade**: Os erros podem passar despercebidos ou causar graves acidentes. Erros de software são difíceis de serem extintos. A seguir, encontra-se alguns motivos para dificuldade de correção de erros:
+  
+  - É dificil descobrir como selecionar.
+  - Deve-se encontrar todos os pontos de correção.
+  - Alta probabilidade de introduzir novos erros.
+  - Nem sempre são reportados pelos usuários.
+  
+(img 3)
+
+**3) Manutenibilidade - fatores**:
+
+  - Correção de erros
+  - Alteração de requisitos
+  - Necessidade de melhor desempenho
+  - Garantia de melhor confiabilidade
+  
+A manutenção deve ser sempre acompanhada de modificações na especificação do sistema. Entretanto, isso nem sempre ocorre devido:
+ - Analistas alocados em outros projetos
+ - Urgência na implatação das modificações
+ - Inexistência de ma política que **valorize a manutenção da especificação**.
+ 
+ **4) Qualidade**
+ 
+Este fator pode ser medido considerando-se os seguintes fatores:
+  - **Eficácia**: Resultados obtidos x Resultados pretendidos
+  - **Eficiência**: Resultados obtidos x Resultados consumidos
+  
+Problemas que acusam falta de qualidade em sistemas:
+  - Não contribuem para os objetivos da empresa
+  - Não atendem às necessidades dos usuários
+  - Não são confiáveis
+  - São ineficientes
+  - Tem manutenção díficil, constante e onerosas
+  
+**5) Portabilidade**
+
+Consiste em escrever sistemas que podem ser transferidos para outras plataformas.
+
+**6) Segurança dos Sistemas de Informação**
+
+Consiste em:
+
+ - Impedir o acesso de pessoas não autorizadas
+ - Conceder certas funcionalidades a apenas algumas pessoas
+ 
+### Ciclo de vida de um sistema
+
+Trata-se do processo para gerenciar o desenvolvimento do seu sistema.
+
+**Objetivos**:
+  - Definir atividdes a serem executadas em um projeto de desenvolvimento:
+    
+    - **1)** Facilita a adaptção de pessoas novas.
+    - **2)** Participantes têm uma visão do que estão fazendo no projeto e qual sua importância.
+  
+  - Manter consistência entre projetos de uma mesma organização:
+  
+    - **1)** Facilita a supervisão do projeto
+  
+  - Introduz pontos de verificação:
+    - **1)** Permite verificar se o projeto está atrasado.
