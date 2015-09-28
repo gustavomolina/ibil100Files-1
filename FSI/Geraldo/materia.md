@@ -364,14 +364,14 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
     
 **4) Prototipação iterativa**:
 
- ###### Diretrizes:
+###### Diretrizes:
  
   - Trabalhar com módulos gerenciáveis.
   - Construir o protótipo rapidamente.
   - Modificar o protótipo em iterações sucessivas
   - Enfatizar com o usuário.
     
- ###### Vantagens da Prototipação iterativa:
+###### Vantagens da Prototipação iterativa:
   - Permite alterar o sistema com antecedência.
   - Permite descartar um sistema quando este se mostrar inadequado.
   - Possibilidade de atender melhor às necessidades e expectativas do usuário.
@@ -385,20 +385,20 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
 **5) Observação direta**:
   Usada em situações que o usuário não tem possibilidade/percepção suficiente para formalizar os requistos.
   
- ###### Usada para:
+###### Usada para:
   
   - Complementar/confirmar informações obtidas com a entrevista ou questionário.
   - Identificar os documentos que devem ser coletados para análise posterior.
   - Esclarecer o que está sendo feito no ambiente atual e de que forma.
   
- ###### Antes da observação deve-se:
+###### Antes da observação deve-se:
     
   - Observar as áreas a serem observadas.
   - Obter aprovação da gerência.
   - Obter nomes e funções das pessoas que serão envolvidas no estudo.
   - Explicar para as pessoas observadas o que será feito e porquê.
     
- ###### Durante a observação deve-se:
+###### Durante a observação deve-se:
   
   - Familiarizar-se com o local de trabalho sendo observado.
   - Observar as facilidades manuais e automatizadas em uso.
@@ -406,7 +406,7 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
   - Acumular informações estatísticas sobre as tarefas: frequência que ocorrem e tempo de duração.
   - Observar as exceções que podem ocorrer.
     
- ###### Depois da observação deve-se:
+###### Depois da observação deve-se:
   
   - Documentar as descobertas
   - Consolidar os resultados
