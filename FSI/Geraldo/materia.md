@@ -182,13 +182,13 @@ Responsáveis por garantir que o sistema seja desenvolvido de acordo com os vár
 
 **1) Produtividade**
 
-  Afetada pelo acumulo de trabalho e pela consequente falta de tempo necessário para construir um novo sistema. A demanda por novos sistemas pode ser dividida em:
-    - visível
-    - invisível
-    - desconhecido
+Afetada pelo acumulo de trabalho e pela consequente falta de tempo necessário para construir um novo sistema. A demanda por novos sistemas pode ser dividida em:
+  - visível
+  - invisível
+  - desconhecido
   
-  No entanto, existem algumas técnicas para redzir o tempo de desenvolvimento:
-    - Contratar pessoas ( analistas e programadores )
-    - usar melhores linguagens de programação
-    - usar controles de engenharia de software
-    - usar ferramentas automatizadas
+No entanto, existem algumas técnicas para redzir o tempo de desenvolvimento:
+  - Contratar pessoas ( analistas e programadores )
+  - usar melhores linguagens de programação
+  - usar controles de engenharia de software
+  - usar ferramentas automatizadas
