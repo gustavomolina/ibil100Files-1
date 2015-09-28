@@ -365,7 +365,7 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
 **4) Prototipação iterativa**:
 
  ###### Diretrizes:
-  
+ 
   - Trabalhar com módulos gerenciáveis.
   - Construir o protótipo rapidamente.
   - Modificar o protótipo em iterações sucessivas
