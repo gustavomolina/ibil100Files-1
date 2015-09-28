@@ -88,3 +88,59 @@ Permite avaliar o desempenho de um sistema como se tivesse executando o sistema 
   - Definir um ou mais métodos de elecitação de requisitos.
   - Solicitar, sempre que possível, a participação de várias pessoas para definir requistos de diferentes pontos de vista.
   - Identificar requisitos ambíguos.
+
+  
+------------
+> Aula: 18 de agosto
+
+----------
+
+**2) Análise e negociação de requisitos - Processo**
+- Ordenar os requisitos e discutir conflitos de prioridades. Dessa forma, é possível diminuir o tempo de entrega e, na verdade, entregar o que é **vital**.
+- Usar uma abordagem iterativa para **eliminar**, **combinar** ou **modificar** requisitos de modo que cada parte alcance algum grau de satisfação.
+- Estimar o esforço de desenvolvimento para avaliar o impacto de cada requisito no custo do projeto e no prazo de entrega (Auxilia muito na previsão do prazo de entrega).
+
+**3) Especificação de Requisitos - Formato**
+Na especificação de requisitos, diversos processos auxiliares podem ser realizados, especialmente com o objetivo de ilustrar os requisitos e resultados que podem ser **gerados**.
+**Elementos importantes**:
+- Documento escrito
+- Modelo(s) gráfico(s)
+- Prototipação
+
+#####Importante
+Um padrão deve ser desenvolvido e usado para apresentar os requisitos de forma consciente e mais fácil de entender.
+
+**4) Modelagem do Sistema - Vantagens**
+- Permite avaliar a eficiência do fluxo de trabalho
+- Permite especificar de forma mais detalhada e adequada o que deve ser construído
+
+------------
+> Aula: 25 de agosto
+
+----------
+
+**5) Validação de Requisitos - Garantidos**
+- Detecção e correção de erros, inconsistências e omissões
+- Declaração não **ambígua** dos requisitos
+- Adequação dos produtos de trabalho em relação às normas estabelecidas. Se existe um padrão, este deve ser utilizado.
+
+**6) Gestão de Requisitos - Tabelas de Rastreamento**
+- **De características**: mostra como os requisitos se relacionam às características importantes do sistema observáveis pelo cliente.
+- **De fontes**: indica qual é o solicitante de cada requisito.
+- **De dependência**: indica a relação existente entre os requisitos
+
+### Desenvolvimento de Sistemas - Participantes
+**1) Usuário**: Pessoas ou grupo de pessoas para quem o sistema é construído.
+  #####**Classificação por tipo de função**:
+    - **Operadores**: têm visão local; são responsáveis por executar as funções de sistema.
+    - **Supervisores**: podem ou não ter uma visão local; geralmente conhecem as funções dos operadores; orientados por questões orçamentárias.
+    - **Executivos**: não tem experiência como operador; têm a iniciativa do projeto; possuem visão global; têm preocupações estratégicas.
+  #####**Classificação por nível de experiência**:
+    - **Amador**: nunca trabalhou com um computador; tem dificuldade de entender os modelos gerados pelo analista.
+    - **Novato**: participou de alguns projetos; possui ou trabalha com computadores.
+    - **Experiente**: conhece a análise de sistemas; tem experiência de outros projetos; discute sobre as técnicas de modelagem sendo usadas.
+**2) Gerente de Projetos - Principais funções**
+- Gerenciar e alocar os recursos de toda a equipe técnica.
+- Prestar contas junto à administração superior
+- Tratar problemas identificados no decorrer do projeto: prever erros durante o projeto e traçar medidas de contigência.
+
