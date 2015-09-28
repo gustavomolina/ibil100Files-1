@@ -341,3 +341,66 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
   - **Preparação**: Identificar o tipo de informação que deseja obter; Escolher o formato adequado; Deixar espaço suficiente para resposta; Elaborar questões claras; Enviar carta acompanhando o questionário enfatizando sua importância.
   - **Identificar os respondentes**: Nome, função e localização; Controlar para que todos recebam.
   - **Distribuição**: Deve ser distribuído juntamente com as instruções detalhadas de como preenchê-lo e o prazo de devolução.
+
+
+------------
+> Aula: 15 de setembro
+
+----------
+(continuação)
+  - **Análise das Respostas**: Analisar e considerar as informações recebidas; documentar as principais descobertas; enviar cópia do relatório para todos os respondentes (satisfação para quem ajudou).
+  
+**3) Casos de uso**:
+  - Descrever a funcionalidade específica que um sistema deve desempenhar, por meio de modelagem de diálogo que um ator terá com o sistema a ser desenvolvido.
+  - **Ator**: entidade que interage com o sistema. Pode ser um usuário, um dispositivo ou outro sistema.
+  - Cada caso de uso descreve um possível cenário de como a entidade externa interage com o sistema.
+  - **Úteis para**:
+    **a) Cliente**: Pode verifificar se todas as funções desejadas estão especificadas.
+    **b) Projetista**: Representam as informações a serem manipuladas pelo sistema.
+    **c) Testadores**: Base para os testes de sistema (em princípio, o sistema é uma caixa preta).
+    
+**4) Prototipação iterativa**:
+  ###### Diretrizes:
+    - Trabalhar com módulos gerenciáveis.
+    - Construir o protótipo rapidamente.
+    - Modificar o protótipo em iterações sucessivas
+    - Enfatizar com o usuário.
+  ###### Vantagens da Prototipação iterativa:
+    - Permite alterar o sistema com antecedência.
+    - Permite descartar um sistema quando este se mostrar inadequado.
+    - Possibilidade de atender melhor às necessidades e expectativas do usuário.
+    
+    
+------------
+> Aula: 21 de setembro
+
+----------
+
+**5) Observação direta**:
+  Usada em situações que o usuário não tem possibilidade/percepção suficiente para formalizar os requistos.
+  ###### Usada para:
+  
+    - Complementar/confirmar informações obtidas com a entrevista ou questionário.
+    - Identificar os documentos que devem ser coletados para análise posterior.
+    - Esclarecer o que está sendo feito no ambiente atual e de que forma.
+  
+  ###### Antes da observação deve-se:
+    
+    - Observar as áreas a serem observadas.
+    - Obter aprovação da gerência.
+    - Obter nomes e funções das pessoas que serão envolvidas no estudo.
+    - Explicar para as pessoas observadas o que será feito e porquê.
+    
+  ###### Durante a observação deve-se:
+  
+    - Familiarizar-se com o local de trabalho sendo observado.
+    - Observar as facilidades manuais e automatizadas em uso.
+    - Coletar amostras de documentos e procedimentos em uso.
+    - Acumular informações estatísticas sobre as tarefas: frequência que ocorrem e tempo de duração.
+    - Observar as exceções que podem ocorrer.
+    
+  ###### Depois da observação deve-se:
+  
+    - Documentar as descobertas
+    - Consolidar os resultados
+    - Revisar os resultados consolidados com as pessoas observadas e/ou seus superiores.
