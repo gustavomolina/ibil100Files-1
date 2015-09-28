@@ -141,6 +141,7 @@ Um padrão deve ser desenvolvido e usado para apresentar os requisitos de forma 
     - **Amador**: nunca trabalhou com um computador; tem dificuldade de entender os modelos gerados pelo analista.
     - **Novato**: participou de alguns projetos; possui ou trabalha com computadores.
     - **Experiente**: conhece a análise de sistemas; tem experiência de outros projetos; discute sobre as técnicas de modelagem sendo usadas.
+    
 **2) Gerente de Projetos - Principais funções**
 - Gerenciar e alocar os recursos de toda a equipe técnica.
 - Prestar contas junto à administração superior
