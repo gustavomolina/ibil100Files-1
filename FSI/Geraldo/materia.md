@@ -147,3 +147,48 @@ Um padrão deve ser desenvolvido e usado para apresentar os requisitos de forma 
 - Prestar contas junto à administração superior
 - Tratar problemas identificados no decorrer do projeto: prever erros durante o projeto e traçar medidas de contigência.
 
+------------
+> Aula: 31 de agosto
+
+----------
+
+**3) Auditores**
+
+Responsáveis por garantir que o sistema seja desenvolvido de acordo com os vários padrões da organização.
+  - **Problemas a serem considerados**:
+    - Normalmente não se envolvem no projeto até que ele tenha sido concluído (maior custo para corrigir problemas).
+    - às vezes não estão habituados à notação utilizada.
+    
+**4) Analistas de Sistemas**
+  
+  - **Funções**:
+    - Documentar as atividades realizadas
+    - Ajudar a encontrar produtos e negócios novos. Abrir o leque de oportunidades.
+    - Negociar os requistos com o usuário. Verificar o que é vital.
+    
+**5) Projetista de Sistemas**
+  
+  Sua função é transformar os requistos dos usuários, modelados pelos analistas, emum projeto implementável no computador.
+  
+**6) Programador**
+
+  Responsável por codificar e testar os módulos do sistema modelados pelos projetistas, além de manter o sistema.
+  
+**7) Operador**
+
+  Pessoa encarregada de manter os equipamentos, a rede , a base de dados.
+  
+### Principais Problemas no Desenvolvimento
+
+**1) Produtividade**
+
+  Afetada pelo acumulo de trabalho e pela consequente falta de tempo necessário para construir um novo sistema. A demanda por novos sistemas pode ser dividida em:
+    - visível
+    - invisível
+    - desconhecido
+  
+  No entanto, existem algumas técnicas para redzir o tempo de desenvolvimento:
+    - Contratar pessoas ( analistas e programadores )
+    - usar melhores linguagens de programação
+    - usar controles de engenharia de software
+    - usar ferramentas automatizadas
