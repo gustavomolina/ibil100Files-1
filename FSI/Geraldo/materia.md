@@ -355,11 +355,15 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
   - **Ator**: entidade que interage com o sistema. Pode ser um usuário, um dispositivo ou outro sistema.
   - Cada caso de uso descreve um possível cenário de como a entidade externa interage com o sistema.
   - **Úteis para**:
+  
     **a) Cliente**: Pode verifificar se todas as funções desejadas estão especificadas.
+    
     **b) Projetista**: Representam as informações a serem manipuladas pelo sistema.
+    
     **c) Testadores**: Base para os testes de sistema (em princípio, o sistema é uma caixa preta).
     
 **4) Prototipação iterativa**:
+
   ###### Diretrizes:
     - Trabalhar com módulos gerenciáveis.
     - Construir o protótipo rapidamente.
