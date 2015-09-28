@@ -194,7 +194,7 @@ No entanto, existem algumas técnicas para redzir o tempo de desenvolvimento:
   - usar ferramentas automatizadas
   
   
-  ------------
+------------
 > Aula: 01 de setembro
 
 ----------
