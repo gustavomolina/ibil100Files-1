@@ -365,11 +365,14 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
 **4) Prototipação iterativa**:
 
   ###### Diretrizes:
+  
     - Trabalhar com módulos gerenciáveis.
     - Construir o protótipo rapidamente.
     - Modificar o protótipo em iterações sucessivas
     - Enfatizar com o usuário.
+    
   ###### Vantagens da Prototipação iterativa:
+  
     - Permite alterar o sistema com antecedência.
     - Permite descartar um sistema quando este se mostrar inadequado.
     - Possibilidade de atender melhor às necessidades e expectativas do usuário.
