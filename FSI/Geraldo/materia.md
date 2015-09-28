@@ -404,3 +404,15 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
     - Documentar as descobertas
     - Consolidar os resultados
     - Revisar os resultados consolidados com as pessoas observadas e/ou seus superiores.
+    
+### Estudo de viabilidade - Etapas:
+
+  - **1)** Definir a delimitação esperada para o projeto e os objetivos do sistema. **Pergunta**: Estou trabalhando no problema certo?
+  - **2)** Estudar o sistema existente (se houver): se o novo sistema não fornecer benefícios adicionais ou não reduzir custos, o sistema antigo deve ser mantido.
+  - **3)** Desenvolver um modelo lógico de alto nível do sistema proposto.
+  - **4)** Revisar a definição do problema com suas delimitações e objetivos com as pessoas chaves (analista e usuário).
+  - **5)** Desenvolver e avaliar soluções alternativas: considerar viabilidade técnica, viabilidade organizacional e econômica (análise custo/benefício).
+  - **6)** Decidir sobre o curso de ação recomendado: continuar ou parar o projeto. Se for continuar, indicar a melhor alternativa e justificar a opção.
+  - **7)** Rascunhas um plano de desenvolvimento: desenvolva um cronograma de implantação, calcule as necessidades de mão-de-obra e indique quando se farão necessárias.
+  - **8)** Redigir o estudo de viabilidade (tem que ser escrito).
+  - **9)** Apresentar os resultados para a administração e o usuário (se está de acordo).
