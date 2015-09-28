@@ -207,7 +207,7 @@ No entanto, existem algumas técnicas para redzir o tempo de desenvolvimento:
   - Alta probabilidade de introduzir novos erros.
   - Nem sempre são reportados pelos usuários.
   
-(img 3)
+![img3](https://cloud.githubusercontent.com/assets/13787877/10149167/339cfe8a-660e-11e5-949f-45b10ccb9f12.png)
 
 **3) Manutenibilidade - fatores**:
 
