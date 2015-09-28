@@ -453,15 +453,15 @@ O sistema é um bom investimento?
   **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
   
   
-  ###### Pontos de Inspeção - Perguntas-Chave:
+###### Pontos de Inspeção - Perguntas-Chave:
   
-    **1) Análise**: O analista realmente compreende o problema? - Representantes dos usuários na equipe de inspeção.
-    
-    **2) Projeto**: As alternativas apresentadas são tecnicamente realistas e resolverão o problema do usuário? (usuário pode responder) - Representantes dos usuários e dos programadores.
-    
-    **3) Projeto detalhado**: O programador pode descrever o código baeando-se nestas especificações?
-    
-    **4) Implmentação**: O código satisfaz as especificações? Como o teste do sistema Normalmente é marcado no final desta fase, a inserção formal pode não ser realizada. É importante considerar a inspeção para os documentos de procedimentos operacionais (manual do sistema e do usuário).
+  **1) Análise**: O analista realmente compreende o problema? - Representantes dos usuários na equipe de inspeção.
+  
+  **2) Projeto**: As alternativas apresentadas são tecnicamente realistas e resolverão o problema do usuário? (usuário pode responder) - Representantes dos usuários e dos programadores.
+  
+  **3) Projeto detalhado**: O programador pode descrever o código baeando-se nestas especificações?
+  
+  **4) Implmentação**: O código satisfaz as especificações? Como o teste do sistema Normalmente é marcado no final desta fase, a inserção formal pode não ser realizada. É importante considerar a inspeção para os documentos de procedimentos operacionais (manual do sistema e do usuário).
     
 ### Análise estruturada - Proposta:
 
@@ -473,13 +473,13 @@ O sistema é um bom investimento?
     - Ter o mínimo possível de redundância.
     - Ser clara para o leitor.
     
-    ###### Importância de um modelo:
-      - Comunicar com o usuário de uma maneira clara.
-      - Discutir modificações e correções nos requisitos do usuário (baratear).
-      - Documentar e permitir que outros profissionais possam assumir o trabalho iniciado por outra pessoa.
-      
-      Modelagem funcional e fluxo de informações:
-	**Elementos básicos**:
-	  - Entrada
-	  - Transformação
-	  - Saída
+###### Importância de um modelo:
+  - Comunicar com o usuário de uma maneira clara.
+  - Discutir modificações e correções nos requisitos do usuário (baratear).
+  - Documentar e permitir que outros profissionais possam assumir o trabalho iniciado por outra pessoa.
+  
+  Modelagem funcional e fluxo de informações:
+    **Elementos básicos**:
+      - Entrada
+      - Transformação
+      - Saída
