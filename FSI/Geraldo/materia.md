@@ -452,7 +452,7 @@ O sistema é um bom investimento?
   
    - **4) Reelaboração**: Após a inspeção, o autor e o moderador se reúnem para discutir os erros encontrados e o tempo estimada para reelaboração do documento.
   
-  - **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
+   - **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
   
   
 ###### Pontos de Inspeção - Perguntas-Chave:
@@ -463,7 +463,7 @@ O sistema é um bom investimento?
   
   - **3) Projeto detalhado**: O programador pode descrever o código baeando-se nestas especificações?
   
-  **4) Implmentação**: O código satisfaz as especificações? Como o teste do sistema Normalmente é marcado no final desta fase, a inserção formal pode não ser realizada. É importante considerar a inspeção para os documentos de procedimentos operacionais (manual do sistema e do usuário).
+  - **4) Implmentação**: O código satisfaz as especificações? Como o teste do sistema Normalmente é marcado no final desta fase, a inserção formal pode não ser realizada. É importante considerar a inspeção para os documentos de procedimentos operacionais (manual do sistema e do usuário).
     
 ### Análise estruturada - Proposta:
 
