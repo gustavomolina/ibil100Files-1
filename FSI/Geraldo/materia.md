@@ -220,7 +220,7 @@ A manutenção deve ser sempre acompanhada de modificações na especificação 
  - Urgência na implatação das modificações
  - Inexistência de ma política que **valorize a manutenção da especificação**.
  
- **4) Qualidade**
+**4) Qualidade**
  
 Este fator pode ser medido considerando-se os seguintes fatores:
   - **Eficácia**: Resultados obtidos x Resultados pretendidos
