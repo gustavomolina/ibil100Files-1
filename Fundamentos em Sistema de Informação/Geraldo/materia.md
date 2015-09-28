@@ -44,7 +44,7 @@ Para se realizar uma boa engenharia de sistemas é necessário que alguns elemen
 
 ### Hierarquia da Engenharia de Sistemas
 
-(Img 01)
+![img01](https://cloud.githubusercontent.com/assets/13787877/10139994/e4df40be-65db-11e5-92df-91617d60605d.png)
 
 
 ------------
@@ -54,7 +54,8 @@ Para se realizar uma boa engenharia de sistemas é necessário que alguns elemen
 
 ### Domínio de Interesse
 
-(Img 02)
+![img2](https://cloud.githubusercontent.com/assets/13787877/10139995/e4fd895c-65db-11e5-8816-75a4381c27f3.png)
+
 
 ### Modelagem do Sistema
 
