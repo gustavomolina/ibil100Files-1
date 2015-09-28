@@ -131,11 +131,11 @@ Um padrão deve ser desenvolvido e usado para apresentar os requisitos de forma 
 
 ### Desenvolvimento de Sistemas - Participantes
 **1) Usuário**: Pessoas ou grupo de pessoas para quem o sistema é construído.
-  #####**Classificação por tipo de função**:
+  ####**Classificação por tipo de função**:
     - **Operadores**: têm visão local; são responsáveis por executar as funções de sistema.
     - **Supervisores**: podem ou não ter uma visão local; geralmente conhecem as funções dos operadores; orientados por questões orçamentárias.
     - **Executivos**: não tem experiência como operador; têm a iniciativa do projeto; possuem visão global; têm preocupações estratégicas.
-  #####**Classificação por nível de experiência**:
+  ####**Classificação por nível de experiência**:
     - **Amador**: nunca trabalhou com um computador; tem dificuldade de entender os modelos gerados pelo analista.
     - **Novato**: participou de alguns projetos; possui ou trabalha com computadores.
     - **Experiente**: conhece a análise de sistemas; tem experiência de outros projetos; discute sobre as técnicas de modelagem sendo usadas.
