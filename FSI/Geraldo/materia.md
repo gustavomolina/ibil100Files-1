@@ -260,3 +260,84 @@ Trata-se do processo para gerenciar o desenvolvimento do seu sistema.
   
   - Introduz pontos de verificação:
     - **1)** Permite verificar se o projeto está atrasado.
+
+------------
+> Aula: 08 de setembro
+
+----------
+
+#### Fases
+
+**1) Concepção - considerações**:
+ 
+ - Na existência de um problema é necessário buscar uma alternativa para resolvê-lo.
+ - Requer que a alta administração esteja empenhada em resolver o problema.
+ - O analista deve fazer uma estimativa de custo e ecaminhar à alta administração.
+ - A administração deve ou não dar continuidade ao trabalho.
+ 
+**2) Estudo de viabilidade - considerações**:
+
+ - O estudo deve ser realizado pelo analista em conjunto com o usuário e administração.
+ - A equipe de análise deve apresentar um relatório detalhado, demonstrando custos e benefícios que suas alternativas trarão à organização (empresa).
+ 
+**3) Processo de Análise - Considerações**:
+
+ - O usuário discute seu problema diretamente com o pessoal da análise.
+ - A construção de um modelo lógico do sistema pelo analista usando ferramentas como **análise estruturada**.
+ 
+**4) Projeto do sistema - considerações**:
+
+ - A escolha da alternativa é bastante pessoal e deve obedecer a uma **rigorosa** análise técnica e econômica.
+ - A alta administração faz a opção que melhor se adequa à empresa.
+ - A descrição da alternativa escolhida será tomada como modelo lógico para o desenvolvimento do sistema físico proposto.
+ 
+**5) Projeto Detalhado - considerações**:
+
+ - Consultar os usuários sobre a ordem que os dados devem ser impressos nos relatórios para facilitar seu trabalho.
+ - Definir os módulos que irão compor o sistema, de preferência em conjunto com os programadores. Estas definições deverão conter as especificações necessárias para a codificação de cada módulo.
+ - Definir um plano de teste.
+ 
+**6) Implementação - considerações**:
+
+ - A partir das descrições detalhadas dos módulos, o programador passará a codificá-lo na linguagem escolhida.
+ - Cada módulo deve ser testado isolodamente e em conjunto com os demais, observando o plano de teste.
+ - Caso necessite de instalação de novos equipamentos, nesta fase já devem ter sido instalados e testados.
+ - Aplicar treinamento a todos que utilizarão o sistema.
+ - Elaborar o manual do sistema.
+ - Elaborar o manual do usuário.
+ 
+**7) Manutenção**: 
+
+Operações que consiste na correção de possíveis erros, na melhoria de seu desempenho e na alteração dos requisitos.
+
+
+------------
+> Aula: 14 de setembro
+
+----------
+
+### Metodologia para Coleta de Informações
+
+**1) Entrevista**:
+ - **Quando Usar**: quando poucas pessoas conhecem as informações necessárias para o desenvolvimento do sistema.
+ - Preparar antecipadamente 
+ - Perguntas objetivas 
+ - Evitar constrangimento dos participantes
+ 
+**Procedimentos para entrevista**:
+
+ - **Antes**: Planejar; Identificar a posição e responsabilidades do entrevistado (evitar constrangimento); Marcar horário com antecedência; Escolher local sossegado.
+ - **Durante**: Apresenta-se informando a finalidade da entrevista e porque o entrevistado foi selecionado; Explique as anotações que fizer (anotar pontos chaves); Não demore mais que duas horas (tempo limite alto); Encerre com observação positiva (fale que a pessoa ajudou e depois fará revisão da entrevista).
+ - **Depois**: Documente os pontos relevantes; Envie a documentação ao entrevistado; Se for necessário esclarecimento posterior, contate o entrevistado para marcar outra reunião.
+ 
+ 
+**2) Questionário**:
+ - **Quando Usar**: quando muitas pessoas conhecem as informações necessárias ao desenvolvimento.
+ - Preparar antecipadamente com questões objetivas.
+ - **Desvantagem**: comunicação com usuários é restrita, não há troca de informação face a face.
+ 
+ ####Procedimento para aplicar Questionário:
+ 
+  - **Preparação**: Identificar o tipo de informação que deseja obter; Escolher o formato adequado; Deixar espaço suficiente para resposta; Elaborar questões claras; Enviar carta acompanhando o questionário enfatizando sua importância.
+  - **Identificar os respondentes**: Nome, função e localização; Controlar para que todos recebam.
+  - **Distribuição**: Deve ser distribuído juntamente com as instruções detalhadas de como preenchê-lo e o prazo de devolução.
