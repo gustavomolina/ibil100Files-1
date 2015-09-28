@@ -372,11 +372,26 @@ Desenvolvendo inclusive estações de solda propiceas para cada uma das respecti
  - Discuta prevemente as diferenças dos padrões SMD e BGA de soldagem, tentando justificar o porque do uso deles, principalmente o segundo, pela industria de computação. Inclua comentarios sobre o maquinario necessario para produzir soldas em cada uma das tecnicas e uma figura relacionada com cada uma das tecnicas.
 
 
+------------
+> Aula: 24 de agosto
 
+----------
 
+### Comentários sobre resistores especiais:
 
+Com base nos estudos realizados anteriormente, é de interesse mencionarmos alguns tipos de resistores classificados como especiais. Entre eles temos:
+- **Light Dependent Resistors (LDRs)**:
+São resistores dopados com um material que os torna sensíveis a luz, de modo que, quanto mais luz incidir na sua superfície, menor a sua resistência Ohmica. O material utilizado é normalmente, sulfeto de cadmio. E o símbolo elétrico é o seguinte:
+![img31](https://cloud.githubusercontent.com/assets/13787877/10137368/8541f860-65cf-11e5-81d8-0323994a3685.png)
 
+Esse resistor é normalmente utilizado em circuitos mais gerais, tais como, aqueles que comandam o acendimento automático de lâmpadas em residências e postes de iluminação, assim como nos mais específicos, tais como controles remotos, mouses ópticos e leitores de cd/dvd. Em geral o LDR é utilizado em conjunto com outro resistor, na configuração de divisor de tensão, tal como no exemplo a seguir: 
+![img32](https://cloud.githubusercontent.com/assets/13787877/10137542/6ce6eb58-65d0-11e5-995c-d95785243325.png)
 
+O LDR é um componente, normalmente, com dimensões mínimas, da proporção de um grão de feijão ou menor e que não possui códigos de cores ou valores impressos. Ao contrário, possui apenas um código, pelo qual podemos encontrar no manual do fabricante as suas características, tal como a faixa de variação da resistência em função da intensidade da luz incidente.
 
+- **Termistor**: Trata-se de um componente que varia o valor da sua resistência Ôhmica em função da temperatura que é recebida em seu corpo. Pode ser do tipo Negative Temperature Coeficient (NTC) ou Positive Temperature Coeficient (PTC) nos quais, a resistência diminui ou aumenta respectivamente em função do decaimento da temperatura. Em âmbito geral é um componente que pode ser utilizado em termômetros digitais. No âmbito computacional costuma ser utilizado para controlar o ligamento, desligamento e velocidade do cooler do computador frente ao aquecimento do processador. O seu símbolo elétrico:
+![img33](https://cloud.githubusercontent.com/assets/13787877/10137606/b66ceb1a-65d0-11e5-9891-a6cbe649f12e.png)
 
+E a configuração circuital típica, na qual ele é utilizado, é normalmente similar a configuração usada para o LDR.
 
+- **Extensômetro**: Trata-se de um resistor, também conhecido como: strain-gauge, para qual o valor da resistência ôhmica varia em função da deformação mecânica em que o componente sofre. Em geral, do ponto de vista físico, o componente é tal qual uma pequena fita ou um pequeno adesivo que é colado em um material que sofre deformações. Normalmente, utiliza-se o extensômetro simbolizado como um resistor comum, para relacionar o ângulo de deformação com uma determinada resistência ôhmica. O seu uso mais comum é na área de automação, mas em alguns laptops têm sido utilizado no controle da iluminação da tela frente a abertura ou fechamento do aparelho.
