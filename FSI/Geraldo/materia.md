@@ -482,6 +482,7 @@ O sistema é um bom investimento?
   Modelagem funcional e fluxo de informações:
   
     **Elementos básicos**:
+    
       - Entrada  
       - Transformação
       - Saída
