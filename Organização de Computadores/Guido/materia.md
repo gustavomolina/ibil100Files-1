@@ -373,7 +373,7 @@ Desenvolvendo inclusive estações de solda propiceas para cada uma das respecti
 
 
 ------------
-> Aula: 24 de agosto
+> Aula: 28 de setembro
 
 ----------
 
