@@ -342,3 +342,148 @@ Operações que consiste na correção de possíveis erros, na melhoria de seu d
   - **Preparação**: Identificar o tipo de informação que deseja obter; Escolher o formato adequado; Deixar espaço suficiente para resposta; Elaborar questões claras; Enviar carta acompanhando o questionário enfatizando sua importância.
   - **Identificar os respondentes**: Nome, função e localização; Controlar para que todos recebam.
   - **Distribuição**: Deve ser distribuído juntamente com as instruções detalhadas de como preenchê-lo e o prazo de devolução.
+
+
+------------
+> Aula: 15 de setembro
+
+----------
+(continuação)
+  - **Análise das Respostas**: Analisar e considerar as informações recebidas; documentar as principais descobertas; enviar cópia do relatório para todos os respondentes (satisfação para quem ajudou).
+  
+**3) Casos de uso**:
+  - Descrever a funcionalidade específica que um sistema deve desempenhar, por meio de modelagem de diálogo que um ator terá com o sistema a ser desenvolvido.
+  - **Ator**: entidade que interage com o sistema. Pode ser um usuário, um dispositivo ou outro sistema.
+  - Cada caso de uso descreve um possível cenário de como a entidade externa interage com o sistema.
+  - **Úteis para**:
+  
+    **a) Cliente**: Pode verifificar se todas as funções desejadas estão especificadas.
+    
+    **b) Projetista**: Representam as informações a serem manipuladas pelo sistema.
+    
+    **c) Testadores**: Base para os testes de sistema (em princípio, o sistema é uma caixa preta).
+    
+**4) Prototipação iterativa**:
+
+###### Diretrizes:
+ 
+  - Trabalhar com módulos gerenciáveis.
+  - Construir o protótipo rapidamente.
+  - Modificar o protótipo em iterações sucessivas
+  - Enfatizar com o usuário.
+    
+###### Vantagens da Prototipação iterativa:
+  - Permite alterar o sistema com antecedência.
+  - Permite descartar um sistema quando este se mostrar inadequado.
+  - Possibilidade de atender melhor às necessidades e expectativas do usuário.
+    
+    
+------------
+> Aula: 21 de setembro
+
+----------
+
+**5) Observação direta**:
+  Usada em situações que o usuário não tem possibilidade/percepção suficiente para formalizar os requistos.
+  
+###### Usada para:
+  
+  - Complementar/confirmar informações obtidas com a entrevista ou questionário.
+  - Identificar os documentos que devem ser coletados para análise posterior.
+  - Esclarecer o que está sendo feito no ambiente atual e de que forma.
+  
+###### Antes da observação deve-se:
+    
+  - Observar as áreas a serem observadas.
+  - Obter aprovação da gerência.
+  - Obter nomes e funções das pessoas que serão envolvidas no estudo.
+  - Explicar para as pessoas observadas o que será feito e porquê.
+    
+###### Durante a observação deve-se:
+  
+  - Familiarizar-se com o local de trabalho sendo observado.
+  - Observar as facilidades manuais e automatizadas em uso.
+  - Coletar amostras de documentos e procedimentos em uso.
+  - Acumular informações estatísticas sobre as tarefas: frequência que ocorrem e tempo de duração.
+  - Observar as exceções que podem ocorrer.
+    
+###### Depois da observação deve-se:
+  
+  - Documentar as descobertas
+  - Consolidar os resultados
+  - Revisar os resultados consolidados com as pessoas observadas e/ou seus superiores.
+    
+### Estudo de viabilidade - Etapas:
+
+  - **1)** Definir a delimitação esperada para o projeto e os objetivos do sistema. **Pergunta**: Estou trabalhando no problema certo?
+  - **2)** Estudar o sistema existente (se houver): se o novo sistema não fornecer benefícios adicionais ou não reduzir custos, o sistema antigo deve ser mantido.
+  - **3)** Desenvolver um modelo lógico de alto nível do sistema proposto.
+  - **4)** Revisar a definição do problema com suas delimitações e objetivos com as pessoas chaves (analista e usuário).
+  - **5)** Desenvolver e avaliar soluções alternativas: considerar viabilidade técnica, viabilidade organizacional e econômica (análise custo/benefício).
+  - **6)** Decidir sobre o curso de ação recomendado: continuar ou parar o projeto. Se for continuar, indicar a melhor alternativa e justificar a opção.
+  - **7)** Rascunhas um plano de desenvolvimento: desenvolva um cronograma de implantação, calcule as necessidades de mão-de-obra e indique quando se farão necessárias.
+  - **8)** Redigir o estudo de viabilidade (tem que ser escrito).
+  - **9)** Apresentar os resultados para a administração e o usuário (se está de acordo).
+  
+------------
+> Aula: 22 de setembro
+
+----------
+
+### Análise custo benefício:
+
+O sistema é um bom investimento?
+
+**1) Cálculo**: Cada fase do ciclo tem um custo, em que é preciso considerar o pessoal, o equipamento, materiais, despesas gerais, entre outros.
+
+**2) Análise**: Ver qual é a expectativa de economia para uma média de **5 anos** de utilização do sistema.
+
+**3) Risco**: Quanto maior o risco, mais alta a taxa de retorno necessária.
+
+### Inspeção e Revisões
+-  **Inspeção**: Revisão **formal** dos critérios de saída, realizada por pessoal técnico.
+-  **Revisão**: **Informal**, feita antes de apresentar a documentação para uma equipe de inspeção.
+
+###### Fases do Processo de Inspeção
+   - **1) Planejamento**: A inspeção deve ser prevista no cronograma do projeto e tão logo a documentação esteja concluída, deve ser agendada a reunião.
+  
+   - **2) Preparação**: Leitura antecipada da documentação pelos inspetores e moderador, anotando as perguntas e os problemas encontrados.
+  
+   - **3) Sessão de inspeção**: Um dos inspetores faz um resumo dos pontos-chaves da documentação e o autor responde às perguntas. O objetivo dessa sessão é encontrar erros e não corrigir.
+  
+   - **4) Reelaboração**: Após a inspeção, o autor e o moderador se reúnem para discutir os erros encontrados e o tempo estimada para reelaboração do documento.
+  
+   - **5) Prosseguimento**: Quando a reelaboração for concluída, o autor e o moderador se reúnem para rever os resultados e, se necessário, agendar outra reunião de prosseguimento e outra sessão de inspeção.
+  
+  
+###### Pontos de Inspeção - Perguntas-Chave:
+  
+  - **1) Análise**: O analista realmente compreende o problema? - Representantes dos usuários na equipe de inspeção.
+  
+  - **2) Projeto**: As alternativas apresentadas são tecnicamente realistas e resolverão o problema do usuário? (usuário pode responder) - Representantes dos usuários e dos programadores.
+  
+  - **3) Projeto detalhado**: O programador pode descrever o código baeando-se nestas especificações?
+  
+  - **4) Implmentação**: O código satisfaz as especificações? Como o teste do sistema Normalmente é marcado no final desta fase, a inserção formal pode não ser realizada. É importante considerar a inspeção para os documentos de procedimentos operacionais (manual do sistema e do usuário).
+    
+### Análise estruturada - Proposta:
+
+  - Construção de um modelo lógico do sistema moldado de forma gráfica que facilite a compreensão e a visualização global das necessidades dos clientes/usuários.
+  Ferramentas de análise são importantes. Algumas caracterísitcas:
+    - Ser gráfico com detalhamento textual de apoio.
+    - Permitir a divisão do modelo.
+    - Ter o mínimo possível de redundância.
+    - Ser clara para o leitor.
+    
+###### Importância de um modelo:
+  - Comunicar com o usuário de uma maneira clara.
+  - Discutir modificações e correções nos requisitos do usuário (baratear).
+  - Documentar e permitir que outros profissionais possam assumir o trabalho iniciado por outra pessoa.
+  
+  Modelagem funcional e fluxo de informações:
+  
+    **Elementos básicos**:
+    
+      - Entrada  
+      - Transformação
+      - Saída
