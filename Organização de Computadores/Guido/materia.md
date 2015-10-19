@@ -457,7 +457,21 @@ Devemos notar que B é uma propriedade intrisseca, isto é, inerente ao transist
 
 
 
+O manual do fabricante descreve para cada transistor, alem dos parametros acima, observações relativas ao encapsulamento, pois os tres terminais (base, coletor e emissor) não obedecem, em termos de posicionamento fisico, nenhum padrão especifico, variando de transistor para transistor. Os encapsulamentos mais comuns são aqueles dos transistores BC338, BD139, TIP31, ZN2222 e MRF454. O primeiro é um transistor de baixa potencia, o segundo de média e o terceiro de alta potencia. O quarto possui capsulamento especifico para operar em altas frequencia, sendo comunmente utilizado em circuitos de radio transmissão. O Ultimo possui um encapsulamento relativamente maior que os demais, sendo comunmente utilizado em amplificadores de altissima potencia para radio transmissão. O segundo, o terceiro e o ultimo possui inclusive meios para fixação de dicipadores de calor.
 
+Até o momento mencionamos um unico tipo de transistor, que é o NPN. É possivel entretanto construir transistores para os quais existe um cristal N entre 2 cristais P. De modo análogo temos:
+
+> img trainsistor PNP
+
+O simbolo elétrico correspondente é:
+
+> img simbolo PNP
+
+NPN e PNP são portanto os dois tipos de transistores conhecidos como ***bipolares**, que são os mais comuns. Transistores especiais serão descritos adiantes. É importante ainda lembrar que no caso do transistor PNP, as polaridades das pontes indicadas nos circuitos anteriores devem ser invertidas pois os diodos internos ao transistor estão invertidos.
+
+Com relação as configurações circuitais para o uso dos transistores, existem 3 possibilidades:
+
+ - Emissor-comum, base-comum e coletor-comum, nas quais a palavra comum significa que o respectivo terminal serve quanto a entrada quanto a saida. Assim, os exemplos anteriores estão na configuração emissor comum, sendo que as outras 2 possuem uso mais especifico e fora do escopo deste curso.
 
 
 
