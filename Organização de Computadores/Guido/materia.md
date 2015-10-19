@@ -395,3 +395,76 @@ O LDR é um componente, normalmente, com dimensões mínimas, da proporção de 
 E a configuração circuital típica, na qual ele é utilizado, é normalmente similar a configuração usada para o LDR.
 
 - **Extensômetro**: Trata-se de um resistor, também conhecido como: strain-gauge, para qual o valor da resistência ôhmica varia em função da deformação mecânica em que o componente sofre. Em geral, do ponto de vista físico, o componente é tal qual uma pequena fita ou um pequeno adesivo que é colado em um material que sofre deformações. Normalmente, utiliza-se o extensômetro simbolizado como um resistor comum, para relacionar o ângulo de deformação com uma determinada resistência ôhmica. O seu uso mais comum é na área de automação, mas em alguns laptops têm sido utilizado no controle da iluminação da tela frente a abertura ou fechamento do aparelho.
+
+--------------------------
+
+> Aula 19/10/15
+
+-----------------------------
+
+## Transistores
+
+São componentes considerados **ativos** na eletrónica, isto é, requerem alimentação para desempenharem as suas funções em um circuito. Desse modo, além de necessitarem de entradas e produzirem saídas em função de uma tensão em circuitos analógicos ou digitais, requerem também uma fonte de alimentação. Essa característica confronta com os componentes anteriormente estudados, que são considerados passivos, isto é, transformam de algum modo uma tensão que lhes é aplicada sem necessitarem de uma fonte de alimentação para tal. Os transistores, que surgiram com base nas pesquisas realizadas por físicos do **Bell Labs** nos Estados Unidos, tem proporcionado desde a década de 50 o avanço nos circuitos chamados computacionais, permitindo praticamente a substituição completa das valvulas eletrónicas, que são muito maiores e dicipam muito mais energia. Atualmente, o espaço fisico ocupado por uma valvula eletrônica é sulficiente para abrigar trilhões de transistores. Os transistores possuem a funcão basica de amplificar sinais elétricos analógicos ou digitais, assim como funcionar como chave eletrónica, isto é produzir ou não uma tensão na saida mediante as carateristicas de um sinal de entrada. No hardware computacional, a segunda função é a mais comum. fisicamente, os transistores são constituidos por duas junções de materiais semicondutores dopados, tal como ocorre com os diodos. Uma analogia comunmente utilizada é a seguinte:
+
+![2 diodos ser](https://cloud.githubusercontent.com/assets/3441126/10577784/97797f70-764c-11e5-8d48-6fe19a45b20f.png)
+
+Na figura acima temos 2 diodos contrapostos em série, dos quais ja sabemos que são formados por materias N e P, fazendo com que a corrente elétrica possa circular somente em um sentido. No ponto central da associação serie temos ainda uma derivação. Isso dá origem a um componente de 3 terminais que são chamados coletor(C), base(B) e emissor(E). A figura acima constitui de fato apenas uma analogia, pois nela observamos que a quantidade de material do tipo P é maior do que cada um dos cristais de material N, isto é, :
+
+![captura de tela de 2015-10-19 09 49 37](https://cloud.githubusercontent.com/assets/3441126/10578426/d305329c-7650-11e5-8aad-d494f23a7c31.png)
+
+
+Facilmente percebemos, com o nosso conhecimente anterior sobre diodos, que não é possivel obter fluxo de elétrons, isto é, corrente eletrica, entre os terminais **C** e **E** pois os diodos estão contrapostos. Seria apenas possivel obter fluxo de corrente entre os terminais **B** e **E** em um sentido e entre os terminas **C** e **E** em outros. Os fisicos do Bell Labs descobriram que se alterarmos a estrutura cristalina da figura anterior de modo a reduzir consideravelmente a espessura do cristal central do material P de modo que ele seja muito mais fino do que os de material N, e, alem disso, aplicarmos uma pequena redução na espessura do cristal N ligado ao terminal E, ou seja, se tivermos algo do tipo :
+
+![captura de tela de 2015-10-19 09 56 59](https://cloud.githubusercontent.com/assets/3441126/10578440/ebbb0ec4-7650-11e5-887a-11efd4d8d3c3.png)
+
+
+Teremos contruido um transistor
+
+Particularmente, este transistor acima é conhecido como transistor do tipo **NPN**, pois existe um cristla do tipo P em meio a dois do tipo N. O simbolo elétrico desse componente é o seguinte:
+
+
+![captura de tela de 2015-10-19 09 58 05](https://cloud.githubusercontent.com/assets/3441126/10578454/fdaee66e-7650-11e5-88af-cbfd02e8f093.png)
+
+
+
+Alguns autores preferem utilizar um segundo simbolo que consiste no anterior inserido em um circulo, isto é, 
+
+![transistor-npn_1](https://cloud.githubusercontent.com/assets/3441126/10578719/9d6f0890-7652-11e5-9878-60d9bfee17e9.png)
+
+
+Para esse componente, com as condições retroespecificadas com as estruturas das cristais o funcionamento é o seguinte:
+
+- Mediante uma corrente relativamente pequena,que venha a circular entre os terminais base e emissor, obedecendo o sentido correto da polarização, isto é, o lado mais positivo na base e o mais negativo no emissor, uma consideravel corrente passa a circular entre os terminais coletor e emissor, injetando a parte mais positiva no coletor e a mais negativa no emissor. Isso ocorre apesar da aparente polarização incorreta entre coletor e emissor.
+
+Diante do exposto, temos o seguinte circuito típico para utilizar um transistor NPN como amplificador 
+
+![ex_trnasistor](https://cloud.githubusercontent.com/assets/3441126/10578614/ec310aba-7651-11e5-8adc-43364f592a77.png)
+
+
+No circuito acima, a corrente elétrica que circula entre a base e o emissor do transistor, com o auxilio da resistencia ohm muito grande, é conhecida como **corrente de base** (`Ib`). Por outro lado, a corrente elétrica que circula entre o coletor e o emissor do transistor, mediante comutação pela corrente de base, é conhecida como corrente de coletor (`Ic`). Assim podemos ainda definir uma terceira corrente que é a de emissor (`Ie`) sendo que `Ie = Ib + Ic`
+
+> img Ie = Ib + Ic
+
+Devemos notar que em relação a **Ic**, Ib é muito pequena e portanto, na pratica, Ic e Ie são quase iguais, sendo na verdade Ie apenas ligeiramente mais que Ic. Devemos ainda notar que os transistors não possuem valores ou codigos de cores. Ao contrário, são como os diodos, isto é, possuem um código do fabricante que possibilita a consulta a um manual que contem as suas especificações e os seus principais parâmetros, que são os seguintes:
+
+ - **Ic max**: corrente máxima de coletor suportada pelo componente;
+ - **Ib max**: corrente máxima de base tolerável;
+ - **B (beta)** : trata-se do parametro beta, que é o parametro mais importante, correspondendo ao seu fator de aplificação, sendo válida a relação **Ic = B Ib**. 
+
+Devemos notar que B é uma propriedade intrisseca, isto é, inerente ao transistor e não pode ser alterada por compoentes externos. Comercialmente o valor de B para os diversos transistores existentes costuma variar desde de 50 até 1000 ou 10000. Observamos ainda que o parametro B na verdade relada o potencial maximo de amplificação, pois a corrente de coletor que está em sua função não atinge necessariamente o valor **B.Ib**. De modo geral, a amplificação ocorre de forma linear (ou quase) até um certo ponto em que o aumento da causa(Ib) não proporciona mais aumento do efeito(Ic), sendo esse ponto conhecido como **ponto de saturação**.
+
+> graf satu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
