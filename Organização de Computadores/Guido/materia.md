@@ -443,7 +443,7 @@ Diante do exposto, temos o seguinte circuito típico para utilizar um transistor
 
 No circuito acima, a corrente elétrica que circula entre a base e o emissor do transistor, com o auxilio da resistencia ohm muito grande, é conhecida como **corrente de base** (`Ib`). Por outro lado, a corrente elétrica que circula entre o coletor e o emissor do transistor, mediante comutação pela corrente de base, é conhecida como corrente de coletor (`Ic`). Assim podemos ainda definir uma terceira corrente que é a de emissor (`Ie`) sendo que `Ie = Ib + Ic`
 
-> img Ie = Ib + Ic
+![fig10](https://cloud.githubusercontent.com/assets/13787877/10579309/1b6021be-7656-11e5-99be-0415f145c209.png)
 
 Devemos notar que em relação a **Ic**, Ib é muito pequena e portanto, na pratica, Ic e Ie são quase iguais, sendo na verdade Ie apenas ligeiramente mais que Ic. Devemos ainda notar que os transistors não possuem valores ou codigos de cores. Ao contrário, são como os diodos, isto é, possuem um código do fabricante que possibilita a consulta a um manual que contem as suas especificações e os seus principais parâmetros, que são os seguintes:
 
@@ -453,7 +453,7 @@ Devemos notar que em relação a **Ic**, Ib é muito pequena e portanto, na prat
 
 Devemos notar que B é uma propriedade intrisseca, isto é, inerente ao transistor e não pode ser alterada por compoentes externos. Comercialmente o valor de B para os diversos transistores existentes costuma variar desde de 50 até 1000 ou 10000. Observamos ainda que o parametro B na verdade relada o potencial maximo de amplificação, pois a corrente de coletor que está em sua função não atinge necessariamente o valor **B.Ib**. De modo geral, a amplificação ocorre de forma linear (ou quase) até um certo ponto em que o aumento da causa(Ib) não proporciona mais aumento do efeito(Ic), sendo esse ponto conhecido como **ponto de saturação**.
 
-> graf satu
+![grafico1](https://cloud.githubusercontent.com/assets/13787877/10579310/1b5fa040-7656-11e5-8c39-587bbf1e649f.png)
 
 
 
