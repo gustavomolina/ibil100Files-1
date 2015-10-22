@@ -473,7 +473,12 @@ Com relação as configurações circuitais para o uso dos transistores, existem
 
  - Emissor-comum, base-comum e coletor-comum, nas quais a palavra comum significa que o respectivo terminal serve quanto a entrada quanto a saida. Assim, os exemplos anteriores estão na configuração emissor comum, sendo que as outras 2 possuem uso mais especifico e fora do escopo deste curso.
 
-Miniprova 6: Descrever brevemente o que é e como funciona o modelo Ebers-Moll de funcionamento do transistor bipolar.
+----------
+
+### Miniprova 6
+ - Descrever brevemente o que é e como funciona o modelo Ebers-Moll de funcionamento do transistor bipolar.
+
+-------------
 
 
 
