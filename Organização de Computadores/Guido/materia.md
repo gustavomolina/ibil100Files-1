@@ -543,3 +543,11 @@ O SCR, conforme especificado acima somente permite a passagem da corrente elétr
 Sendo G, T1 e T2 respectivamente, o GATE, o terminal de carga 1 e o terminal de carga 2. Visando proporcionar uma analogia de funcionamento com base em transistores, podemos estabelecer o seguinte circuito para o caso do SCR:
 
 ![circuito-simula-triac](https://cloud.githubusercontent.com/assets/3441126/10735750/b526b700-7bf0-11e5-884b-315f1901b738.png)
+
+----------
+
+### Mini Prova 7
+ - Pesquisar na internet um circuito simples baseado em scr, copia-lo e comentar seu principio de funcionamento.
+ 
+------------------
+
