@@ -502,3 +502,39 @@ Ao longo do tempo foram desenvolvidos os seguintes tipos de transistores **FET**
 O terminal **S** (source), ou fonte, é por onde os elétrons entram, o terminal **D** (drain), ou dreno, é por onde eles saem, e o terminal **G** (gate), ou porta, é o que controla o campo elétrico que permite a condução entre **D** e **S**.
  - MOS-FET (metal oxide semicondutor FET): trata-se de um componente muito mais sensível que o anterior, porém que pode mais facilmente ser danificado por cargas estáticas. Constitui o componente ativo básico da grande maioria dos circuitos digitais memórias e processadores da atualidade. A sua construção permite classificá-lo em dois subtipos que são D-MOS-FET (mos-FET de depleção) e E-MOS-FET (mos-FET de intensificaçã, o e vem de enhacement (intensificação). O primeiro subtipo tem o funcionamento de modo a permanecer normalmente fechado, ainda que parcialmente. Isso significa que mesmo sem a presença de qualquer campo elétrico oriundo de tensões no terminal **G** já existe um pequeno fluxo de corrente entre os terminais **D** e **S**, que aumenta a medida que a tensão em **G** aumenta. Por outro lado, o segundo subtipo permanece normalmente aberto, ou seja, a ausência total de tensão em **G** faz com que não exista passagem de elétrons entre **D** e **S**
 
+=====
+Falta a parte que os pcs ficou cagado
+=====
+
+Unijuncao
+
+ASsim como os FETS especificado anteriormente, os transistores unijunção como o próprio nome diz, são formados por uma única junção de um material N com um material P, ambos silício dopado, com material N consideravelmente maior que o P. O seu princípio de funcionamento é bastante particular e difere do transistor bipolar no sentido de que quando passa a conduzir em virtude de alguma tensão aplicada em sua entrada, a condução é praticamente plena, não variando linearmente em função da entrada. Sua consituição física e símbola segue:
+
+> imagem do unijuncao
+
+
+====
+Diodos especiais
+====
+
+## Silicon-controlled rectifier (SCR)
+Trata-se de um componente com três junções semi-condutoras de quatro cristais de silício. Da seguinte forma: 
+> img scr
+
+A sua constituição física faz com que o componente funcione como uma chave comutadora que uma vez acionada permanece ligada enquanto houver alimentação no circuito. O símbolo elétrico é o seguinte:
+
+> simbolo scr
+
+Sendo respectivamente, A, K, G os terminais designados ANODO, CATODO e GATE. Uma vez que o terminal G receba tensão maior ou igual que 0.6V ou 0.7V, passa a ocorrer um fluxo de elétrons entre A e K sendo A o lado mais positivo. Tipicamente o circuito abaixo é um dos que ilustra o seu funcionamento:
+> img circuito
+
+
+## SCR de mão dupla (TRIAC)
+
+O SCR, conforme especificado acima somente permite a passagem da corrente elétrica, mediante autorização em único sentido, isto é, terminal A deve estar conectado no positivo de alimentação. Isto implica que somente podemos comutar cargas alimentadas por corrente contínua. Se desejamos, por outro lado, acionar eletrodomésticos e aparelhos maiores, alimentados com corrente alternada, devemos utilizar o SCR de mão dupla, ou TRIAC, que é simbolizado da seguinte forma:
+
+> img TRIAC
+
+Sendo G, T1 e T2 respectivamente, o GATE, o terminal de carga 1 e o terminal de carga 2. Visando proporcionar uma analogia de funcionamento com base em transistores, podemos estabelecer o seguinte circuito para o caso do SCR:
+
+> circuito TRIAC 
