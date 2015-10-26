@@ -482,6 +482,22 @@ Com relação as configurações circuitais para o uso dos transistores, existem
 -------------
 
 
+ - **Obs**
+
+Comercialmente, existe uma configuração especifica em que 2 transistores são conectados de modo que o seu potencial de amplificação é tal que ambos os componentes são vistos como um unico transitor em que o fator de amplificação **B** corresponde a multiplicação dos **B** individuais. Este "super transistor" é conhecido como transistor de configuração **Darlington**. Um exemplos classico disponivel no mercado é o **BC517**, este componente é muito comum na configuração de emissor comum o ganho ser tão alto que aproximando a mão do terminal base em aberto, ja passa a haver condução entre o coletor e o emissor. Particularmente, além de ser possivel adiquirir no comercio transistores do tipo darlington, podemos produzi-los com dois transistores tradicionais. A configuração é sempre a seguinte:
+
+> img 2 transistor em serie
+
+--------
+
+## Tansistores especiais 
+
+Os circuitos computacionais, na maioria das vezes, não são construidos simplemente com transistores bipolares. Após a invenção dos mesmos, na decada de 50, outros estudos foram iniciados no sentido de melhorar a proposta de fazer com que uma força menor pudesse acionar, ou controlar, uma forma maior. Além disso, questoes relativas ao consumo de energia e, consequentemente a dessipação de calor, passavam a ser preocupações releantes. Surgiu então, tempos após o lançamento comercial do transistor bipolar, uma outro tipo de transistor conhecido como **transistor de efeito de campo (FET - field effect transistor)**. Neste componente a ideia é que um campo elétrico pudesse acionar e controlar uma energia de grande potencial. O campo elétrico mencionado permitiria assim um efeito que não traria a necessidade de um fluxo de eletrons, isto é, a corrente elétrica. Nesse sentido, o FET é conhecido na eletronica como amplificador de transcondutância, isto é, possui altissima impedancia de entrada, da ordem de centenas de melhares de ohm, e também alta impedancia de saída, de modo que podemos dizer que em sua entrada, o controle da amplificação é realisado por tensão e não por corrente, e a grandeza controlada se faz em termos de corrente.
+
+
+
+
+
 
 
 
