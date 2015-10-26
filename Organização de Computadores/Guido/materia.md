@@ -461,11 +461,12 @@ O manual do fabricante descreve para cada transistor, alem dos parametros acima,
 
 Até o momento mencionamos um unico tipo de transistor, que é o NPN. É possivel entretanto construir transistores para os quais existe um cristal N entre 2 cristais P. De modo análogo temos:
 
-> img trainsistor PNP
+![fig1](https://cloud.githubusercontent.com/assets/13787877/10728355/3c548988-7bc8-11e5-818e-68759a05227b.png)
 
 O simbolo elétrico correspondente é:
 
-> img simbolo PNP
+![fig2](https://cloud.githubusercontent.com/assets/13787877/10728375/6c700912-7bc8-11e5-8480-bca948c85254.png)
+
 
 NPN e PNP são portanto os dois tipos de transistores conhecidos como ***bipolares**, que são os mais comuns. Transistores especiais serão descritos adiantes. É importante ainda lembrar que no caso do transistor PNP, as polaridades das pontes indicadas nos circuitos anteriores devem ser invertidas pois os diodos internos ao transistor estão invertidos.
 
