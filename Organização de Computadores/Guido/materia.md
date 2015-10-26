@@ -494,11 +494,11 @@ Comercialmente, existe uma configuração especifica em que 2 transistores são 
 
 Os circuitos computacionais, na maioria das vezes, não são construidos simplemente com transistores bipolares. Após a invenção dos mesmos, na decada de 50, outros estudos foram iniciados no sentido de melhorar a proposta de fazer com que uma força menor pudesse acionar, ou controlar, uma forma maior. Além disso, questoes relativas ao consumo de energia e, consequentemente a dessipação de calor, passavam a ser preocupações releantes. Surgiu então, tempos após o lançamento comercial do transistor bipolar, uma outro tipo de transistor conhecido como **transistor de efeito de campo (FET - field effect transistor)**. Neste componente a ideia é que um campo elétrico pudesse acionar e controlar uma energia de grande potencial. O campo elétrico mencionado permitiria assim um efeito que não traria a necessidade de um fluxo de eletrons, isto é, a corrente elétrica. Nesse sentido, o FET é conhecido na eletronica como amplificador de transcondutância, isto é, possui altissima impedancia de entrada, da ordem de centenas de melhares de ohm, e também alta impedancia de saída, de modo que podemos dizer que em sua entrada, o controle da amplificação é realisado por tensão e não por corrente, e a grandeza controlada se faz em termos de corrente.
 
+Ao longo do tempo foram desenvolvidos os seguintes tipos de transistores **FET**:
+ - J-FET ( junction FET): é o modelo mais simples do FET e que não é demasiadamente sensível à cargas estáticas. Assim como ocorre com os transistores bipolares NPN e PNP, os **J-FETS** também possuem dois tipos de montagem que variam as polaridades das fontes à eles conectadas, que são o J-FET canal N, e o J-FET canal P, sendo que o primeiro é muitissimo mais comum e seu símbolo elétrico é:  
 
+> img simbolo eletrico J-FET 
 
-
-
-
-
-
+O terminal **S** (source), ou fonte, é por onde os elétrons entram, o terminal **D** (drain), ou dreno, é por onde eles saem, e o terminal **G** (gate), ou porta, é o que controla o campo elétrico que permite a condução entre **D** e **S**.
+ - MOS-FET (metal oxide semicondutor FET): trata-se de um componente muito mais sensível que o anterior, porém que pode mais facilmente ser danificado por cargas estáticas. Constitui o componente ativo básico da grande maioria dos circuitos digitais memórias e processadores da atualidade. A sua construção permite classificá-lo em dois subtipos que são D-MOS-FET (mos-FET de depleção) e E-MOS-FET (mos-FET de intensificaçã, o e vem de enhacement (intensificação). O primeiro subtipo tem o funcionamento de modo a permanecer normalmente fechado, ainda que parcialmente. Isso significa que mesmo sem a presença de qualquer campo elétrico oriundo de tensões no terminal **G** já existe um pequeno fluxo de corrente entre os terminais **D** e **S**, que aumenta a medida que a tensão em **G** aumenta. Por outro lado, o segundo subtipo permanece normalmente aberto, ou seja, a ausência total de tensão em **G** faz com que não exista passagem de elétrons entre **D** e **S**
 
