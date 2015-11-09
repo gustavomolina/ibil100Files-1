@@ -551,3 +551,34 @@ Sendo G, T1 e T2 respectivamente, o GATE, o terminal de carga 1 e o terminal de 
  
 ------------------
 
+
+> Aula 09-11-2015
+
+### Circuitos integrados amplificadores operacionais
+
+Circuito integrado é o nome que se dá a um conjunto de componetes eletrònicos ativos e passivos devidamente conectados na forma de um circuito, sendo que o circuito em si é encapsulado em um único envolucro. Desse modo, observamos que um circuito integrado com volume de alguns milimetros cubicos pode conter trilhoes de componentes. Ja sabemos que transistor real, por exemplo, é muitissimo menor do que o transistor vendido comercioalmente, pois a sua capa plastica ocupa normalmente de 90 a 99 por cento do seu volume total. Isso acontece com grande parte dos compoentes eletronicos visando apenas possibilitar a sua minipulação mais confortavel. Daí entendemos por que um unico circuito integrado pode reunir tantos componentes. Se, por um lado, resistores, diodos e transistores podem ser facilmente inseridos nos circuitos integrados, capacitores e indutores por exempo, raramente podem ser colocados, pois o tamanho do componente real é consideravel. Desse modo, os terminais externos do circuito integrado, além de servir para alimentação, entrada e saida de dados, visam a conecção de componentes que não podem ser inseridos dentro do circuito integrado. 
+
+Circuitos integrados existem comercialmente para as mais diversas funções, tais como microprocessadores, memórias, portas logicas, osciladores, circuitos de radio frequencia, entre outros. Um destaque interessante é dado aos circuitos integrados denominados amplificadores operacionais, que são circuitos construidos para amplificar pequenos sinais, com base nas seguintes caracteristicas: 
+
+ - Altissima impedancia de entrada
+ - Baixa impedancia de saída
+ - Alimentação simétrica
+ - Amplificação diferencial das entradas
+ - Amplificação com fator de ganho controlado por componentes externos
+
+O amplificador operacional mais popular é o que tem o código 741. Além dele, é bastante usual o LM 324, que consiste de 4 amplificadores em um mesmo encapsulamento, tal como ocorre com circuitos integrados que contem 4 portas logicas E ou OU.
+
+O simbolo elétrico de um amplificador operacional é o seguinte:
+
+> img simbolo circ-op
+
+
+Esse tipo de circuito é analógico por essencia, e portanto, não se comporta como uma porta digital. Para compreender o seu funcionamento nós devemos lembrar que além da altissima impedancia de entrada de ambas as portas, deve ser levado em conta que ambos os terminais são automaticamente colocados no mesmo potencial eletrico internamente, fato esse conhecido popular mente como terra virtual.
+O modelo mais básico para uso desse circuito é o seguinte:
+
+
+> img com alimentação simetrica
+
+
+
+
