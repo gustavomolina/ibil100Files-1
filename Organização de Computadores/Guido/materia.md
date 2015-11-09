@@ -618,8 +618,6 @@ Inúmeros outros circuitos, não detalhados aqui por estarem fora do escopo dest
  - Deduzir o equacionamento do circuito subtrator, com base na segunda parte da formulação usada para o circuito amplificador. Após encontrar a corrente no divisor de tensão formado por RA e RB ligado na porta inversora, observar que, para concluir o equacionamento, a tensão em RB não é **S-0 = S**, mas sim a subtração de S pela tensão fornecida pelo divisor de tensão da porta não inversora.
 
 
+### Projeto Prático
 
-
- 
-
-
+Construíremos um circuito transmissor de radio-frequência com portadora em 96 Mhz e modulação em frequência (FM). Na entrada, injetaremos um sinal acustico oriundo da placa de áudio do computador ou de outro emissor acústico qualquer. O sinal deve ser recebido em qualquer receptor de FM comum nas proximidades do circuito. Passaremos a definição do cirucito eletrônico e a correspondente confecção da placa de circuito impresso em fibra de vidro utilizando decalque eletrônico. 
