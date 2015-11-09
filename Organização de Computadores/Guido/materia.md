@@ -570,15 +570,56 @@ O amplificador operacional mais popular é o que tem o código 741. Além dele, 
 
 O simbolo elétrico de um amplificador operacional é o seguinte:
 
-> img simbolo circ-op
+![circ-op](https://cloud.githubusercontent.com/assets/3441126/11034017/34458906-86cf-11e5-832e-bbd5881d4453.png)
 
 
 Esse tipo de circuito é analógico por essencia, e portanto, não se comporta como uma porta digital. Para compreender o seu funcionamento nós devemos lembrar que além da altissima impedancia de entrada de ambas as portas, deve ser levado em conta que ambos os terminais são automaticamente colocados no mesmo potencial eletrico internamente, fato esse conhecido popular mente como terra virtual.
 O modelo mais básico para uso desse circuito é o seguinte:
 
+![circ-op-ali-simetrica](https://cloud.githubusercontent.com/assets/3441126/11034019/3563cca8-86cf-11e5-9619-26f4b01d0b23.png)
 
-> img com alimentação simetrica
+
+Funcionamento do Circuito:
+
+> img anotações
+
+![anot](https://cloud.githubusercontent.com/assets/3441126/11034693/a6d2f8fa-86d4-11e5-929d-b1c5ef211961.png)
+
+Com base no equacionamento acima, entendemos que a configuração circuital exibida constitui um amplificador inversor no qual o ganho, ou o fator de amplificação é dado pela divisão de **rb** por **ra**. Notamos que este fator de amplificação pode variar consideravelmente mediante a nossa escolha para os valores dos resistores, entretanto, devemos considerar alguns limites inerentes ao funcionamento do circuito integrado. Primeiramente, entendemos que o uso de **rb** infinito, isto é, inesistente na pratica, não conduz a um ganho infinito, mas sim ao ganho maximo do aplificador, que pode ser de 10 mil ou 100 mil vezes. Da mesma forma, **ra** extremamente pequeno, isto é, tendento a 0 ohm (curto circuito), não conduz a um ganho infinito. De qualquer forma, se considerarmos ambas as situações extremas para **ra** e **rb** teremos o seguinte circuito:
+
+![caso_comparador](https://cloud.githubusercontent.com/assets/3441126/11034512/3aa63472-86d3-11e5-942f-a0f8ee17d266.png)
 
 
+Este circuito faz com que tenhamos o que se chama de **comparador**, pois quando a entrada **E** for minimamente diferente de 0, o amplificador terá ganho maximo e produzirá na saída **S* a maxima tensão disponível, que é a tensão da fonte.
+
+Por outro lado, uma outra situação extrema é aquela na qual fazemos **rb** tender a 0 e curto-circuitamos uma das entradas à saída, conforme segue:
+
+![curto-circ](https://cloud.githubusercontent.com/assets/3441126/11034575/be85d356-86d3-11e5-95af-0d3e681639fd.png)
+
+Nesse circuito, comunmente chamado de **seguidor de tensao**, **S** é sempre igual a **E**, portanto o ganho é 1. Embora este circuito possa parecer sem uso, pois a saída é sempre identica a entrado, ele é muito utilizado na pratica, pois, sendo a impedancia de entrada altissima, os circuitos de entrada e de saída estão isolados eletricamente. Desse modo, o circuito funciona como um **espelho**.
+
+Temos ainda duas configurações muito comuns envolvendo amplificadores computacionais, que são as seguintes:
+
+ - Amplificador somador
+
+![ampl_somador](https://cloud.githubusercontent.com/assets/3441126/11034759/1f5ea08a-86d5-11e5-9989-8e9aa6579408.png)
+
+ - Amplificador subtrator
+
+![ampl_sub](https://cloud.githubusercontent.com/assets/3441126/11035014/bcabf4cc-86d6-11e5-9e40-f12293b62e12.png)
+
+
+
+Inúmeros outros circuitos, não detalhados aqui por estarem fora do escopo deste curso existem, tais como o diferenciador e o integrador que são aqueles nos quais respectivamente **RA** e **Rb** são substituidos por capacitores.
+
+---------------
+
+### MINIPROVA 8
+ - Deduzir o equacionamento do circuito subtrator, com base na segunda parte da formulação usada para o circuito amplificador. Após encontrar a corrente no divisor de tensão formado por RA e RB ligado na porta inversora, observar que, para concluir o equacionamento, a tensão em RB não é **S-0 = S**, mas sim a subtração de S pela tensão fornecida pelo divisor de tensão da porta não inversora.
+
+
+
+
+ 
 
 
